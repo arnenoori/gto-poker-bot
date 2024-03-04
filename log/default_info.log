@@ -1,0 +1,1635 @@
+2024-03-03 15:55:15,886 - INFO - main.py - command_line_parser - 55 - Initializing program
+2024-03-03 15:55:15,890 - INFO - env.py - _start_new_hand - 420 - 
+2024-03-03 15:55:15,890 - INFO - env.py - _start_new_hand - 421 - ++++++++++++++++++
+2024-03-03 15:55:15,890 - INFO - env.py - _start_new_hand - 422 - Starting new hand.
+2024-03-03 15:55:15,890 - INFO - env.py - _start_new_hand - 423 - ++++++++++++++++++
+2024-03-03 15:55:15,890 - INFO - env.py - _distribute_cards - 663 - Dealer is at position 0
+2024-03-03 15:55:15,891 - INFO - env.py - _distribute_cards - 671 - Player 0 got ['9S', 'JC'] and $500
+2024-03-03 15:55:15,891 - INFO - env.py - _distribute_cards - 671 - Player 1 got ['2S', 'KC'] and $500
+2024-03-03 15:55:15,891 - INFO - env.py - _initiate_round - 504 - 
+2024-03-03 15:55:15,891 - INFO - env.py - _initiate_round - 505 - ===Round: Stage: PREFLOP
+2024-03-03 15:55:15,891 - INFO - env.py - _process_decision - 408 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 499, Round pot: 1, Community pot: 0, player pot: 1
+2024-03-03 15:55:15,891 - INFO - env.py - _process_decision - 408 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 498, Round pot: 3, Community pot: 0, player pot: 2
+2024-03-03 15:56:42,874 - INFO - main.py - command_line_parser - 55 - Initializing program
+2024-03-03 15:56:42,877 - INFO - env.py - _start_new_hand - 420 - 
+2024-03-03 15:56:42,878 - INFO - env.py - _start_new_hand - 421 - ++++++++++++++++++
+2024-03-03 15:56:42,878 - INFO - env.py - _start_new_hand - 422 - Starting new hand.
+2024-03-03 15:56:42,878 - INFO - env.py - _start_new_hand - 423 - ++++++++++++++++++
+2024-03-03 15:56:42,878 - INFO - env.py - _distribute_cards - 663 - Dealer is at position 0
+2024-03-03 15:56:42,878 - INFO - env.py - _distribute_cards - 671 - Player 0 got ['AH', '2C'] and $500
+2024-03-03 15:56:42,878 - INFO - env.py - _distribute_cards - 671 - Player 1 got ['TD', 'QC'] and $500
+2024-03-03 15:56:42,878 - INFO - env.py - _initiate_round - 504 - 
+2024-03-03 15:56:42,878 - INFO - env.py - _initiate_round - 505 - ===Round: Stage: PREFLOP
+2024-03-03 15:56:42,878 - INFO - env.py - _process_decision - 408 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 499, Round pot: 1, Community pot: 0, player pot: 1
+2024-03-03 15:56:42,879 - INFO - env.py - _process_decision - 408 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 498, Round pot: 3, Community pot: 0, player pot: 2
+2024-03-03 15:57:07,810 - INFO - main.py - command_line_parser - 55 - Initializing program
+2024-03-03 15:57:07,816 - INFO - env.py - _start_new_hand - 420 - 
+2024-03-03 15:57:07,816 - INFO - env.py - _start_new_hand - 421 - ++++++++++++++++++
+2024-03-03 15:57:07,816 - INFO - env.py - _start_new_hand - 422 - Starting new hand.
+2024-03-03 15:57:07,816 - INFO - env.py - _start_new_hand - 423 - ++++++++++++++++++
+2024-03-03 15:57:07,816 - INFO - env.py - _distribute_cards - 663 - Dealer is at position 0
+2024-03-03 15:57:07,817 - INFO - env.py - _distribute_cards - 671 - Player 0 got ['QD', '2C'] and $500
+2024-03-03 15:57:07,817 - INFO - env.py - _distribute_cards - 671 - Player 1 got ['4H', 'JS'] and $500
+2024-03-03 15:57:07,817 - INFO - env.py - _initiate_round - 504 - 
+2024-03-03 15:57:07,817 - INFO - env.py - _initiate_round - 505 - ===Round: Stage: PREFLOP
+2024-03-03 15:57:07,817 - INFO - env.py - _process_decision - 408 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 499, Round pot: 1, Community pot: 0, player pot: 1
+2024-03-03 15:57:07,817 - INFO - env.py - _process_decision - 408 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 498, Round pot: 3, Community pot: 0, player pot: 2
+2024-03-03 15:58:34,126 - INFO - main.py - command_line_parser - 55 - Initializing program
+2024-03-03 15:58:34,130 - INFO - env.py - _start_new_hand - 420 - 
+2024-03-03 15:58:34,131 - INFO - env.py - _start_new_hand - 421 - ++++++++++++++++++
+2024-03-03 15:58:34,131 - INFO - env.py - _start_new_hand - 422 - Starting new hand.
+2024-03-03 15:58:34,131 - INFO - env.py - _start_new_hand - 423 - ++++++++++++++++++
+2024-03-03 15:58:34,131 - INFO - env.py - _distribute_cards - 663 - Dealer is at position 0
+2024-03-03 15:58:34,131 - INFO - env.py - _distribute_cards - 671 - Player 0 got ['TC', 'KC'] and $500
+2024-03-03 15:58:34,131 - INFO - env.py - _distribute_cards - 671 - Player 1 got ['6S', 'TS'] and $500
+2024-03-03 15:58:34,131 - INFO - env.py - _initiate_round - 504 - 
+2024-03-03 15:58:34,131 - INFO - env.py - _initiate_round - 505 - ===Round: Stage: PREFLOP
+2024-03-03 15:58:34,132 - INFO - env.py - _process_decision - 408 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 499, Round pot: 1, Community pot: 0, player pot: 1
+2024-03-03 15:58:34,132 - INFO - env.py - _process_decision - 408 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 498, Round pot: 3, Community pot: 0, player pot: 2
+2024-03-03 16:00:06,054 - INFO - main.py - command_line_parser - 55 - Initializing program
+2024-03-03 16:00:06,058 - INFO - env.py - _start_new_hand - 420 - 
+2024-03-03 16:00:06,058 - INFO - env.py - _start_new_hand - 421 - ++++++++++++++++++
+2024-03-03 16:00:06,058 - INFO - env.py - _start_new_hand - 422 - Starting new hand.
+2024-03-03 16:00:06,058 - INFO - env.py - _start_new_hand - 423 - ++++++++++++++++++
+2024-03-03 16:00:06,058 - INFO - env.py - _distribute_cards - 663 - Dealer is at position 0
+2024-03-03 16:00:06,059 - INFO - env.py - _distribute_cards - 671 - Player 0 got ['7H', '8D'] and $500
+2024-03-03 16:00:06,059 - INFO - env.py - _distribute_cards - 671 - Player 1 got ['JH', 'QD'] and $500
+2024-03-03 16:00:06,059 - INFO - env.py - _initiate_round - 504 - 
+2024-03-03 16:00:06,059 - INFO - env.py - _initiate_round - 505 - ===Round: Stage: PREFLOP
+2024-03-03 16:00:06,059 - INFO - env.py - _process_decision - 408 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 499, Round pot: 1, Community pot: 0, player pot: 1
+2024-03-03 16:00:06,059 - INFO - env.py - _process_decision - 408 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 498, Round pot: 3, Community pot: 0, player pot: 2
+2024-03-03 16:01:41,363 - INFO - main.py - command_line_parser - 55 - Initializing program
+2024-03-03 16:01:41,368 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:01:41,368 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:01:41,368 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:01:41,368 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:01:41,368 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:01:41,368 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['JD', 'TC'] and $500
+2024-03-03 16:01:41,369 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['6S', '5C'] and $500
+2024-03-03 16:01:41,369 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:01:41,369 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:01:41,369 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 499, Round pot: 1, Community pot: 0, player pot: 1
+2024-03-03 16:01:41,369 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 498, Round pot: 3, Community pot: 0, player pot: 2
+2024-03-03 16:01:56,281 - INFO - main.py - command_line_parser - 55 - Initializing program
+2024-03-03 16:01:56,284 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:01:56,284 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:01:56,284 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:01:56,284 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:01:56,284 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:01:56,285 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['6H', 'QH'] and $500
+2024-03-03 16:01:56,285 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['AS', '2C'] and $500
+2024-03-03 16:01:56,285 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:01:56,285 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:01:56,285 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 499, Round pot: 1, Community pot: 0, player pot: 1
+2024-03-03 16:01:56,285 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 498, Round pot: 3, Community pot: 0, player pot: 2
+2024-03-03 16:04:10,742 - INFO - main.py - command_line_parser - 55 - Initializing program
+2024-03-03 16:04:10,745 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:10,745 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:10,746 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:10,746 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:10,746 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:10,746 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['TC', 'AC'] and $500
+2024-03-03 16:04:10,746 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['QS', '2D'] and $500
+2024-03-03 16:04:10,746 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:10,746 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:10,747 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 499, Round pot: 1, Community pot: 0, player pot: 1
+2024-03-03 16:04:10,747 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 498, Round pot: 3, Community pot: 0, player pot: 2
+2024-03-03 16:04:10,808 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 498, Round pot: 4, Community pot: 0, player pot: 2
+2024-03-03 16:04:10,869 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.RAISE_HALF_POT - Remaining stack: 496.0, Round pot: 6.0, Community pot: 0, player pot: 4.0
+2024-03-03 16:04:10,869 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:10,869 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['TD', '4S', 'KD']
+2024-03-03 16:04:10,869 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:10,870 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:10,923 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.RAISE_HALF_POT - Remaining stack: 490.0, Round pot: 6.0, Community pot: 12.0, player pot: 6.0
+2024-03-03 16:04:10,976 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.RAISE_POT - Remaining stack: 480.0, Round pot: 24.0, Community pot: 12.0, player pot: 18.0
+2024-03-03 16:04:11,030 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 490.0, Round pot: 24.0, Community pot: 12.0, player pot: 6.0
+2024-03-03 16:04:11,030 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:11,030 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:11,031 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:11,031 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:11,031 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:11,031 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:11,031 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:11,031 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['7H', 'JC'] and $490.0
+2024-03-03 16:04:11,031 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['5S', '4C'] and $510.0
+2024-03-03 16:04:11,032 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:11,032 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:11,032 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 489.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:11,032 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 508.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:11,091 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.RAISE_POT - Remaining stack: 486.0, Round pot: 6.0, Community pot: 0, player pot: 4.0
+2024-03-03 16:04:11,150 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.RAISE_2POT - Remaining stack: 496.0, Round pot: 18.0, Community pot: 0, player pot: 14.0
+2024-03-03 16:04:11,210 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 478.0, Round pot: 26.0, Community pot: 0, player pot: 12.0
+2024-03-03 16:04:11,210 - INFO - cycle.py - next_player - 74 - Max steps without raising has been reached. For example all calls after raiser.
+2024-03-03 16:04:11,210 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:11,210 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['2H', '4S', 'KD']
+2024-03-03 16:04:11,210 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:11,210 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:11,262 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.RAISE_POT - Remaining stack: 444.0, Round pot: 52.0, Community pot: 52.0, player pot: 52.0
+2024-03-03 16:04:11,314 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.RAISE_2POT - Remaining stack: 270.0, Round pot: 260.0, Community pot: 52.0, player pot: 208.0
+2024-03-03 16:04:11,366 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 444.0, Round pot: 260.0, Community pot: 52.0, player pot: 52.0
+2024-03-03 16:04:11,366 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:11,366 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:11,366 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:11,366 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:11,367 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:11,367 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:11,367 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:11,367 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['KC', 'JD'] and $556.0
+2024-03-03 16:04:11,367 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['TC', 'QH'] and $444.0
+2024-03-03 16:04:11,367 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:11,367 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:11,367 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 443.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:11,367 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 554.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:11,427 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 442.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:11,487 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 554.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:11,487 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:11,488 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7C', '4H', '6S']
+2024-03-03 16:04:11,488 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:11,488 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:11,541 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 554.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:11,595 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 442.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:11,597 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:11,597 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7C', '4H', '6S', '6D']
+2024-03-03 16:04:11,597 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:11,597 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:11,646 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.RAISE_2POT - Remaining stack: 538.0, Round pot: 16.0, Community pot: 8.0, player pot: 16.0
+2024-03-03 16:04:11,696 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 442.0, Round pot: 16.0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:11,696 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:11,696 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:11,697 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:11,697 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:11,697 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:11,697 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:11,697 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:11,697 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['JS', '7C'] and $558.0
+2024-03-03 16:04:11,697 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['6C', '4D'] and $442.0
+2024-03-03 16:04:11,697 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:11,697 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:11,697 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 557.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:11,698 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 440.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:11,757 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 557.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:11,757 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:11,757 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:11,758 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:11,758 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:11,758 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:11,758 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:11,758 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:11,758 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['TD', '3C'] and $557.0
+2024-03-03 16:04:11,758 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['8D', '8H'] and $443.0
+2024-03-03 16:04:11,758 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:11,758 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:11,758 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 442.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:11,758 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 555.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:11,818 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 441.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:11,877 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 555.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:11,877 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:11,877 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JC', '7S', '9C']
+2024-03-03 16:04:11,878 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:11,878 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:11,930 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 555.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:11,983 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 441.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:11,983 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:11,983 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JC', '7S', '9C', 'TS']
+2024-03-03 16:04:11,983 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:11,983 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:12,034 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.RAISE_2POT - Remaining stack: 539.0, Round pot: 16.0, Community pot: 8.0, player pot: 16.0
+2024-03-03 16:04:12,084 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.RAISE_2POT - Remaining stack: 393.0, Round pot: 64.0, Community pot: 8.0, player pot: 48.0
+2024-03-03 16:04:12,134 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 507.0, Round pot: 96.0, Community pot: 8.0, player pot: 48.0
+2024-03-03 16:04:12,134 - INFO - cycle.py - next_player - 74 - Max steps without raising has been reached. For example all calls after raiser.
+2024-03-03 16:04:12,135 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:12,135 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JC', '7S', '9C', 'TS', 'AS']
+2024-03-03 16:04:12,135 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:12,135 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:12,184 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 507.0, Round pot: 0, Community pot: 200.0, player pot: 0
+2024-03-03 16:04:12,232 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 393.0, Round pot: 0, Community pot: 200.0, player pot: 0
+2024-03-03 16:04:12,233 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:12,233 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:12,233 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:12,233 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:12,233 - INFO - env.py - _get_winner - 584 - Player 1 won: Straight
+2024-03-03 16:04:12,233 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:12,233 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:12,233 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:12,233 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:12,233 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:12,233 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['7C', '3H'] and $507.0
+2024-03-03 16:04:12,233 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['5S', '8C'] and $493.0
+2024-03-03 16:04:12,234 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:12,234 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:12,234 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 506.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:12,234 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 491.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:12,293 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 505.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:12,352 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.RAISE_2POT - Remaining stack: 483.0, Round pot: 12.0, Community pot: 0, player pot: 10.0
+2024-03-03 16:04:12,411 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 505.0, Round pot: 12.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:12,411 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:12,411 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:12,411 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:12,411 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:12,411 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:12,411 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:12,412 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:12,412 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['KH', '6D'] and $505.0
+2024-03-03 16:04:12,412 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['8H', '9S'] and $495.0
+2024-03-03 16:04:12,412 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:12,412 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:12,412 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 494.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:12,412 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 503.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:12,471 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 493.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:12,531 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 503.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:12,531 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:12,531 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7C', 'AD', '6H']
+2024-03-03 16:04:12,531 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:12,531 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:12,585 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 503.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:12,640 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 493.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:12,640 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:12,640 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7C', 'AD', '6H', '7H']
+2024-03-03 16:04:12,640 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:12,640 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:12,689 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 503.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:12,738 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.RAISE_POT - Remaining stack: 485.0, Round pot: 8.0, Community pot: 8.0, player pot: 8.0
+2024-03-03 16:04:12,786 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 495.0, Round pot: 16.0, Community pot: 8.0, player pot: 8.0
+2024-03-03 16:04:12,786 - INFO - cycle.py - next_player - 74 - Max steps without raising has been reached. For example all calls after raiser.
+2024-03-03 16:04:12,786 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:12,786 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7C', 'AD', '6H', '7H', '5C']
+2024-03-03 16:04:12,786 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:12,786 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:12,833 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 495.0, Round pot: 0, Community pot: 40.0, player pot: 0
+2024-03-03 16:04:12,881 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.RAISE_HALF_POT - Remaining stack: 465.0, Round pot: 20.0, Community pot: 40.0, player pot: 20.0
+2024-03-03 16:04:12,928 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 495.0, Round pot: 20.0, Community pot: 40.0, player pot: 0
+2024-03-03 16:04:12,929 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:12,929 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:12,929 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:12,929 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:12,929 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:12,929 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:12,929 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:12,930 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['TS', 'TD'] and $495.0
+2024-03-03 16:04:12,930 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['QD', 'JC'] and $505.0
+2024-03-03 16:04:12,930 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:12,930 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:12,930 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 494.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:12,930 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 503.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:12,989 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 494.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:12,989 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:12,989 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:12,989 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:12,989 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:12,989 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:12,990 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:12,990 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:12,990 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['8C', 'QS'] and $494.0
+2024-03-03 16:04:12,990 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['AH', '5C'] and $506.0
+2024-03-03 16:04:12,990 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:12,990 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:12,990 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 505.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:12,990 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 492.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:13,050 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 504.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:13,110 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 492.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:13,111 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:13,111 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['4H', '7H', '5D']
+2024-03-03 16:04:13,111 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:13,111 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:13,164 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 492.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:13,217 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 504.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:13,218 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:13,218 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['4H', '7H', '5D', 'JC']
+2024-03-03 16:04:13,218 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:13,218 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:13,268 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 492.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:13,319 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 504.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:13,319 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:13,319 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['4H', '7H', '5D', 'JC', '5H']
+2024-03-03 16:04:13,319 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:13,319 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:13,366 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.RAISE_2POT - Remaining stack: 476.0, Round pot: 16.0, Community pot: 8.0, player pot: 16.0
+2024-03-03 16:04:13,412 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 504.0, Round pot: 16.0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:13,412 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:13,412 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:13,413 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:13,413 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:13,413 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:13,413 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:13,413 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:13,413 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['2S', '2C'] and $496.0
+2024-03-03 16:04:13,413 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['AS', 'KH'] and $504.0
+2024-03-03 16:04:13,413 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:13,413 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:13,413 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 495.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:13,413 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 502.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:13,471 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 495.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:13,471 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:13,471 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:13,472 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:13,472 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:13,472 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:13,472 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:13,472 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:13,472 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['KS', 'TH'] and $495.0
+2024-03-03 16:04:13,472 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['9H', 'TS'] and $505.0
+2024-03-03 16:04:13,472 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:13,472 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:13,472 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 504.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:13,472 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 493.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:13,532 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 503.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:13,597 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 493.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:13,597 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:13,598 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['6S', '9D', '4S']
+2024-03-03 16:04:13,598 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:13,598 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:13,652 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 493.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:13,705 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 503.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:13,705 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:13,705 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['6S', '9D', '4S', 'TD']
+2024-03-03 16:04:13,705 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:13,705 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:13,756 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 493.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:13,806 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 503.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:13,806 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:13,806 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['6S', '9D', '4S', 'TD', 'AC']
+2024-03-03 16:04:13,806 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:13,806 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:13,855 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.RAISE_POT - Remaining stack: 485.0, Round pot: 8.0, Community pot: 8.0, player pot: 8.0
+2024-03-03 16:04:13,903 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.RAISE_2POT - Remaining stack: 471.0, Round pot: 40.0, Community pot: 8.0, player pot: 32.0
+2024-03-03 16:04:13,954 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 461.0, Round pot: 64.0, Community pot: 8.0, player pot: 32.0
+2024-03-03 16:04:13,954 - INFO - cycle.py - next_player - 74 - Max steps without raising has been reached. For example all calls after raiser.
+2024-03-03 16:04:13,954 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:13,954 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:13,954 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:13,954 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:13,954 - INFO - env.py - _get_winner - 584 - Player 1 won: TwoPair
+2024-03-03 16:04:13,955 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:13,955 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:13,955 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:13,955 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:13,955 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:13,955 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['2S', '2C'] and $461.0
+2024-03-03 16:04:13,955 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['QD', '7D'] and $539.0
+2024-03-03 16:04:13,955 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:13,955 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:13,955 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 460.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:13,955 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 537.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:14,014 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 460.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:14,014 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:14,014 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:14,015 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:14,015 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:14,015 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:14,015 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:14,015 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:14,015 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['TD', '9S'] and $460.0
+2024-03-03 16:04:14,015 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['JS', '6C'] and $540.0
+2024-03-03 16:04:14,015 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:14,015 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:14,015 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 539.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:14,015 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 458.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:14,075 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 538.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:14,135 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:14,135 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:14,135 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7C', '8C', '2S']
+2024-03-03 16:04:14,135 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:14,135 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:14,188 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:14,240 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:14,240 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:14,240 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7C', '8C', '2S', '4D']
+2024-03-03 16:04:14,240 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:14,240 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:14,289 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:14,339 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:14,339 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:14,339 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7C', '8C', '2S', '4D', 'JD']
+2024-03-03 16:04:14,339 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:14,339 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:14,387 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:14,434 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:14,434 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:14,434 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:14,434 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:14,434 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:14,434 - INFO - env.py - _get_winner - 584 - Player 0 won: Straight
+2024-03-03 16:04:14,435 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:14,435 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:14,435 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:14,435 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:14,435 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:14,435 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['AS', 'AH'] and $462.0
+2024-03-03 16:04:14,435 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['QC', 'TH'] and $538.0
+2024-03-03 16:04:14,435 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:14,435 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:14,435 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 461.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:14,435 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 536.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:14,495 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 461.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:14,496 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:14,496 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:14,496 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:14,496 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:14,496 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:14,496 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:14,496 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:14,496 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['JH', '9D'] and $461.0
+2024-03-03 16:04:14,496 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['8C', '3H'] and $539.0
+2024-03-03 16:04:14,496 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:14,496 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:14,496 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 538.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:14,497 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 459.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:14,556 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 538.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:14,556 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:14,556 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:14,557 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:14,557 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:14,557 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:14,557 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:14,557 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:14,557 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['7D', '4S'] and $462.0
+2024-03-03 16:04:14,557 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['QS', 'AS'] and $538.0
+2024-03-03 16:04:14,557 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:14,557 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:14,557 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 461.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:14,557 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 536.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:14,616 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 461.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:14,616 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:14,616 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:14,617 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:14,617 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:14,617 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:14,617 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:14,617 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:14,617 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['7S', 'KC'] and $461.0
+2024-03-03 16:04:14,617 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['TC', '7D'] and $539.0
+2024-03-03 16:04:14,617 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:14,617 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:14,617 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 538.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:14,617 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 459.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:14,677 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 538.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:14,677 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:14,677 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:14,678 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:14,678 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:14,678 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:14,678 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:14,678 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:14,678 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['8D', 'KH'] and $462.0
+2024-03-03 16:04:14,678 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['5D', 'QH'] and $538.0
+2024-03-03 16:04:14,678 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:14,678 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:14,678 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 461.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:14,678 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 536.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:14,738 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 460.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:14,797 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:14,797 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:14,797 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['KS', '6H', 'TS']
+2024-03-03 16:04:14,797 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:14,798 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:14,851 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:14,905 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:14,905 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:14,905 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['KS', '6H', 'TS', '3S']
+2024-03-03 16:04:14,905 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:14,905 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:14,957 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,008 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,008 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:15,008 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['KS', '6H', 'TS', '3S', '7C']
+2024-03-03 16:04:15,008 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:15,008 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:15,056 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,105 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,105 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:15,106 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:15,106 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:15,106 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:15,106 - INFO - env.py - _get_winner - 584 - Player 0 won: Pair
+2024-03-03 16:04:15,106 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:15,106 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:15,106 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:15,106 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:15,106 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:15,106 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['KD', 'TC'] and $464.0
+2024-03-03 16:04:15,107 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['7C', 'JS'] and $536.0
+2024-03-03 16:04:15,107 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:15,107 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:15,107 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 535.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:15,107 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 462.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:15,166 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 535.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:15,167 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:15,167 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:15,167 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:15,167 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:15,167 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:15,167 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:15,167 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:15,167 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['9D', '3H'] and $465.0
+2024-03-03 16:04:15,167 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['2S', 'TC'] and $535.0
+2024-03-03 16:04:15,168 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:15,168 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:15,168 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 464.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:15,168 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 533.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:15,226 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 463.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:15,286 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 533.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:15,286 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:15,286 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JH', 'TD', '2D']
+2024-03-03 16:04:15,286 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:15,286 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:15,336 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 533.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,389 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 463.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,389 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:15,389 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JH', 'TD', '2D', 'KD']
+2024-03-03 16:04:15,389 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:15,389 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:15,438 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 533.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,490 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 463.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,490 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:15,490 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JH', 'TD', '2D', 'KD', '4D']
+2024-03-03 16:04:15,490 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:15,490 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:15,539 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 533.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,596 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 463.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,597 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:15,597 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:15,597 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:15,597 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:15,597 - INFO - env.py - _get_winner - 584 - Player 0 won: Flush
+2024-03-03 16:04:15,597 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:15,597 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:15,597 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:15,597 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:15,597 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:15,597 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['8H', '5H'] and $467.0
+2024-03-03 16:04:15,598 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['TH', 'QS'] and $533.0
+2024-03-03 16:04:15,598 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:15,598 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:15,598 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 532.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:15,598 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 465.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:15,657 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 531.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:15,717 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 465.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:15,717 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:15,717 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['KD', 'JS', '6D']
+2024-03-03 16:04:15,717 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:15,717 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:15,770 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 465.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,824 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 531.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,824 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:15,824 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['KD', 'JS', '6D', 'KC']
+2024-03-03 16:04:15,824 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:15,824 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:15,874 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 465.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,925 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 531.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:15,925 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:15,925 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['KD', 'JS', '6D', 'KC', '3C']
+2024-03-03 16:04:15,925 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:15,925 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:15,972 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 465.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:16,020 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 531.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:16,020 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:16,020 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:16,020 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:16,020 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:16,021 - INFO - env.py - _get_winner - 584 - Player 1 won: Pair
+2024-03-03 16:04:16,021 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:16,021 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:16,021 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:16,021 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:16,021 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:16,021 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['AC', '8S'] and $465.0
+2024-03-03 16:04:16,021 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['3H', '5S'] and $535.0
+2024-03-03 16:04:16,021 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:16,021 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:16,022 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 464.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:16,022 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 533.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:16,082 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 464.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:16,082 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:16,082 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:16,082 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:16,082 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:16,082 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:16,082 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:16,082 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:16,082 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['4S', '3H'] and $464.0
+2024-03-03 16:04:16,083 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['2C', '3D'] and $536.0
+2024-03-03 16:04:16,083 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:16,083 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:16,083 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 535.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:16,083 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 462.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:16,158 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 535.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:16,158 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:16,158 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:16,158 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:16,158 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:16,158 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:16,158 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:16,158 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:16,158 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['7C', '3C'] and $465.0
+2024-03-03 16:04:16,159 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['4H', '6C'] and $535.0
+2024-03-03 16:04:16,159 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:16,159 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:16,159 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 464.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:16,159 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 533.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:16,218 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 463.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:16,278 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 533.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:16,278 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:16,278 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JD', '4D', 'QH']
+2024-03-03 16:04:16,278 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:16,278 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:16,331 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 533.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:16,384 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 463.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:16,384 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:16,384 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JD', '4D', 'QH', '2H']
+2024-03-03 16:04:16,384 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:16,384 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:16,434 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 533.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:16,483 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 463.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:16,483 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:16,484 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JD', '4D', 'QH', '2H', '6D']
+2024-03-03 16:04:16,484 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:16,484 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:16,530 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 533.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:16,579 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 463.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:16,579 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:16,579 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:16,579 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:16,579 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:16,580 - INFO - env.py - _get_winner - 584 - Player 1 won: TwoPair
+2024-03-03 16:04:16,580 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:16,580 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:16,580 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:16,580 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:16,580 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:16,580 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['4C', '9H'] and $463.0
+2024-03-03 16:04:16,580 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['2H', 'TC'] and $537.0
+2024-03-03 16:04:16,580 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:16,580 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:16,580 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 536.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:16,581 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 461.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:16,700 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 535.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:16,760 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 461.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:16,760 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:16,760 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['8C', '6C', '3C']
+2024-03-03 16:04:16,760 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:16,760 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:16,815 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 461.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:16,870 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 535.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:16,870 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:16,870 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['8C', '6C', '3C', '6D']
+2024-03-03 16:04:16,870 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:16,870 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:16,920 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 461.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:16,970 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 535.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:16,970 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:16,970 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['8C', '6C', '3C', '6D', 'AC']
+2024-03-03 16:04:16,970 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:16,970 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:17,025 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 461.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:17,079 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 535.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:17,079 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:17,079 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:17,079 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:17,080 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:17,080 - INFO - env.py - _get_winner - 584 - Player 1 won: Flush
+2024-03-03 16:04:17,080 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:17,080 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:17,080 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:17,080 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:17,080 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:17,080 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['7D', '8S'] and $461.0
+2024-03-03 16:04:17,080 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['2C', '6D'] and $539.0
+2024-03-03 16:04:17,080 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:17,080 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:17,081 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 460.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:17,081 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 537.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:17,140 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 459.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:17,199 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 537.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:17,199 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:17,199 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['3H', '9C', '6S']
+2024-03-03 16:04:17,199 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:17,199 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:17,250 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 537.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:17,303 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 459.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:17,303 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:17,303 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['3H', '9C', '6S', '8H']
+2024-03-03 16:04:17,303 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:17,303 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:17,352 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 537.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:17,402 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 459.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:17,403 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:17,403 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['3H', '9C', '6S', '8H', '6H']
+2024-03-03 16:04:17,403 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:17,403 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:17,448 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 537.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:17,494 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 459.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:17,494 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:17,494 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:17,494 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:17,495 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:17,495 - INFO - env.py - _get_winner - 584 - Player 1 won: ThreeOfAKind
+2024-03-03 16:04:17,495 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:17,495 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:17,495 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:17,495 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:17,495 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:17,495 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['TC', '7D'] and $459.0
+2024-03-03 16:04:17,495 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['KD', 'QH'] and $541.0
+2024-03-03 16:04:17,495 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:17,495 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:17,495 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 540.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:17,496 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 457.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:17,556 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 540.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:17,557 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:17,557 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:17,557 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:17,557 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:17,557 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:17,557 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:17,557 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:17,558 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['QD', '2S'] and $460.0
+2024-03-03 16:04:17,558 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['KH', '7S'] and $540.0
+2024-03-03 16:04:17,558 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:17,558 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:17,558 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 459.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:17,558 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 538.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:17,617 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 459.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:17,617 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:17,617 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:17,618 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:17,618 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:17,618 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:17,618 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:17,618 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:17,618 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['KC', '8C'] and $459.0
+2024-03-03 16:04:17,618 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['9S', '7H'] and $541.0
+2024-03-03 16:04:17,618 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:17,618 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:17,618 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 540.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:17,618 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 457.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:17,678 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 540.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:17,678 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:17,678 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:17,678 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:17,678 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:17,679 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:17,679 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:17,679 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:17,679 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['4D', 'QH'] and $460.0
+2024-03-03 16:04:17,679 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['TH', '6H'] and $540.0
+2024-03-03 16:04:17,679 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:17,679 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:17,679 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 459.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:17,679 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 538.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:17,739 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 458.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:17,798 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:17,799 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:17,799 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['QC', 'JD', '4C']
+2024-03-03 16:04:17,799 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:17,799 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:17,852 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:17,903 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:17,903 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:17,903 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['QC', 'JD', '4C', '4S']
+2024-03-03 16:04:17,903 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:17,903 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:17,952 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:17,996 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:17,996 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:17,996 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['QC', 'JD', '4C', '4S', '8C']
+2024-03-03 16:04:17,996 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:17,996 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:18,044 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:18,085 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:18,086 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:18,086 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:18,086 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:18,086 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:18,086 - INFO - env.py - _get_winner - 584 - Player 0 won: FullHouse
+2024-03-03 16:04:18,086 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:18,086 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:18,086 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:18,086 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:18,087 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:18,087 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['9C', '2S'] and $462.0
+2024-03-03 16:04:18,087 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['6C', '4H'] and $538.0
+2024-03-03 16:04:18,087 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:18,087 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:18,087 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 537.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:18,087 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 460.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:18,146 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 536.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:18,204 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:18,204 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:18,205 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7D', '8S', '3D']
+2024-03-03 16:04:18,205 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:18,205 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:18,256 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:18,308 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:18,308 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:18,308 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7D', '8S', '3D', '4C']
+2024-03-03 16:04:18,308 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:18,308 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:18,356 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:18,405 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:18,405 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:18,405 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7D', '8S', '3D', '4C', 'QS']
+2024-03-03 16:04:18,405 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:18,405 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:18,452 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:18,499 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:18,499 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:18,499 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:18,499 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:18,499 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:18,499 - INFO - env.py - _get_winner - 584 - Player 1 won: Pair
+2024-03-03 16:04:18,500 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:18,500 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:18,500 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:18,500 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:18,500 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:18,500 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['4H', '7D'] and $460.0
+2024-03-03 16:04:18,500 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['QC', 'TC'] and $540.0
+2024-03-03 16:04:18,500 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:18,500 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:18,500 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 459.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:18,500 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 538.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:18,559 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 459.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:18,560 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:18,560 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:18,560 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:18,560 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:18,560 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:18,560 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:18,560 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:18,560 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['3S', '6S'] and $459.0
+2024-03-03 16:04:18,560 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['TS', 'JH'] and $541.0
+2024-03-03 16:04:18,560 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:18,560 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:18,560 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 540.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:18,561 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 457.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:18,621 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 540.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:18,621 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:18,621 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:18,621 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:18,621 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:18,621 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:18,621 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:18,621 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:18,622 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['JD', '4C'] and $460.0
+2024-03-03 16:04:18,622 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['6C', '5C'] and $540.0
+2024-03-03 16:04:18,622 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:18,622 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:18,622 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 459.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:18,622 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 538.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:18,680 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 458.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:18,739 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:18,739 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:18,739 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['9S', 'KD', '4H']
+2024-03-03 16:04:18,739 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:18,739 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:18,791 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:18,844 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:18,844 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:18,844 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['9S', 'KD', '4H', 'TC']
+2024-03-03 16:04:18,844 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:18,844 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:18,894 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:18,944 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:18,944 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:18,944 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['9S', 'KD', '4H', 'TC', 'TS']
+2024-03-03 16:04:18,944 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:18,945 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:18,992 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:19,039 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:19,039 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:19,039 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:19,039 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:19,039 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:19,040 - INFO - env.py - _get_winner - 584 - Player 0 won: TwoPair
+2024-03-03 16:04:19,040 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:19,040 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:19,040 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:19,040 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:19,040 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:19,040 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['6S', '9S'] and $462.0
+2024-03-03 16:04:19,040 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['JS', '6C'] and $538.0
+2024-03-03 16:04:19,040 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:19,040 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:19,040 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 537.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:19,040 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 460.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:19,101 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 537.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:19,101 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:19,101 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:19,101 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:19,101 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:19,101 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:19,101 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:19,101 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:19,101 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['6H', '8H'] and $463.0
+2024-03-03 16:04:19,101 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['9D', '7H'] and $537.0
+2024-03-03 16:04:19,102 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:19,102 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:19,102 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 462.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:19,102 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 535.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:19,162 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 462.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:19,162 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:19,162 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:19,162 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:19,162 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:19,162 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:19,162 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:19,163 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:19,163 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['5S', '4C'] and $462.0
+2024-03-03 16:04:19,163 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['3D', '8D'] and $538.0
+2024-03-03 16:04:19,163 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:19,163 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:19,163 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 537.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:19,163 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 460.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:19,226 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 536.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:19,286 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:19,286 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:19,286 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['9D', '2D', 'JC']
+2024-03-03 16:04:19,286 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:19,286 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:19,338 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:19,393 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:19,393 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:19,393 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['9D', '2D', 'JC', '9C']
+2024-03-03 16:04:19,393 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:19,393 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:19,441 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:19,492 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:19,492 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:19,492 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['9D', '2D', 'JC', '9C', 'KS']
+2024-03-03 16:04:19,492 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:19,492 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:19,539 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:19,585 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:19,586 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:19,586 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:19,586 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:19,586 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:19,586 - INFO - env.py - _get_winner - 584 - Player 1 won: Pair
+2024-03-03 16:04:19,586 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:19,586 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:19,587 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:19,587 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:19,587 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:19,587 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['5D', '7C'] and $460.0
+2024-03-03 16:04:19,587 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['2D', 'TS'] and $540.0
+2024-03-03 16:04:19,587 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:19,587 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:19,587 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 459.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:19,587 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 538.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:19,647 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 459.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:19,647 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:19,647 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:19,647 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:19,647 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:19,647 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:19,647 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:19,647 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:19,647 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['3D', 'TH'] and $459.0
+2024-03-03 16:04:19,647 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['3S', '8C'] and $541.0
+2024-03-03 16:04:19,648 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:19,648 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:19,648 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 540.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:19,648 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 457.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:19,708 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 539.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:19,767 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 457.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:19,767 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:19,767 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['8H', 'JD', 'AH']
+2024-03-03 16:04:19,767 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:19,767 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:19,821 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 457.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:19,876 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 539.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:19,876 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:19,876 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['8H', 'JD', 'AH', '7S']
+2024-03-03 16:04:19,876 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:19,876 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:19,929 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 457.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:19,981 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 539.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:19,981 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:19,981 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['8H', 'JD', 'AH', '7S', '5S']
+2024-03-03 16:04:19,981 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:19,981 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:20,031 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 457.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:20,080 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 539.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:20,080 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:20,080 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:20,080 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:20,080 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:20,080 - INFO - env.py - _get_winner - 584 - Player 1 won: Pair
+2024-03-03 16:04:20,081 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:20,081 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:20,081 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:20,081 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:20,081 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:20,081 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['8D', '2H'] and $457.0
+2024-03-03 16:04:20,081 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['9H', 'QH'] and $543.0
+2024-03-03 16:04:20,081 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:20,081 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:20,081 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 456.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:20,081 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 541.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:20,141 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 455.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:20,201 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 541.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:20,201 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:20,201 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['8S', 'TD', '9C']
+2024-03-03 16:04:20,202 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:20,202 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:20,255 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 541.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:20,308 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 455.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:20,308 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:20,308 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['8S', 'TD', '9C', 'JC']
+2024-03-03 16:04:20,308 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:20,308 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:20,359 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 541.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:20,410 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 455.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:20,410 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:20,410 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['8S', 'TD', '9C', 'JC', '3S']
+2024-03-03 16:04:20,410 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:20,410 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:20,458 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 541.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:20,506 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 455.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:20,506 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:20,506 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:20,506 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:20,506 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:20,506 - INFO - env.py - _get_winner - 584 - Player 1 won: Straight
+2024-03-03 16:04:20,507 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:20,507 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:20,507 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:20,507 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:20,507 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:20,507 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['9D', '9S'] and $455.0
+2024-03-03 16:04:20,507 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['4H', '4C'] and $545.0
+2024-03-03 16:04:20,507 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:20,507 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:20,507 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 544.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:20,507 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 453.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:20,566 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 544.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:20,566 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:20,566 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:20,567 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:20,567 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:20,567 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:20,567 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:20,567 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:20,567 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['9D', 'KH'] and $456.0
+2024-03-03 16:04:20,567 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['5C', 'QC'] and $544.0
+2024-03-03 16:04:20,567 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:20,567 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:20,567 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 455.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:20,567 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 542.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:20,627 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 455.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:20,627 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:20,627 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:20,628 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:20,628 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:20,628 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:20,628 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:20,628 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:20,628 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['5C', 'TH'] and $455.0
+2024-03-03 16:04:20,628 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['TS', '7H'] and $545.0
+2024-03-03 16:04:20,628 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:20,628 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:20,628 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 544.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:20,629 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 453.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:20,688 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 544.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:20,688 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:20,688 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:20,688 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:20,689 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:20,689 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:20,689 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:20,689 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:20,689 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['3D', 'AH'] and $456.0
+2024-03-03 16:04:20,689 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['2D', 'TC'] and $544.0
+2024-03-03 16:04:20,689 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:20,689 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:20,689 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 455.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:20,689 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 542.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:20,749 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 455.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:20,749 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:20,749 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:20,749 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:20,749 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:20,749 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:20,749 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:20,749 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:20,749 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['3D', '7D'] and $455.0
+2024-03-03 16:04:20,749 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['6H', '4C'] and $545.0
+2024-03-03 16:04:20,749 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:20,749 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:20,750 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 544.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:20,750 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 453.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:20,809 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 543.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:20,868 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 453.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:20,869 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:20,869 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['QD', 'JD', 'QH']
+2024-03-03 16:04:20,869 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:20,869 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:20,923 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 453.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:20,975 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 543.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:20,975 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:20,975 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['QD', 'JD', 'QH', '7C']
+2024-03-03 16:04:20,975 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:20,975 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:21,026 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 453.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,076 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 543.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,076 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:21,076 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['QD', 'JD', 'QH', '7C', '9C']
+2024-03-03 16:04:21,076 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:21,076 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:21,124 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 453.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,171 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 543.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,171 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:21,171 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:21,171 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:21,171 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:21,171 - INFO - env.py - _get_winner - 584 - Player 0 won: TwoPair
+2024-03-03 16:04:21,172 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:21,172 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:21,172 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:21,172 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:21,172 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:21,172 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['9D', '2S'] and $457.0
+2024-03-03 16:04:21,172 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['6C', '7C'] and $543.0
+2024-03-03 16:04:21,172 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:21,172 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:21,172 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 456.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:21,172 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 541.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:21,231 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 456.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:21,231 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:21,232 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:21,232 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:21,232 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:21,232 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:21,232 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:21,232 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:21,232 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['TS', '3H'] and $456.0
+2024-03-03 16:04:21,232 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['TH', '2H'] and $544.0
+2024-03-03 16:04:21,232 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:21,233 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:21,233 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 543.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:21,233 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 454.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:21,293 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 542.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:21,354 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 454.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:21,354 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:21,354 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['3C', 'KH', 'QC']
+2024-03-03 16:04:21,354 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:21,354 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:21,407 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 454.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,462 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 542.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,462 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:21,462 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['3C', 'KH', 'QC', 'QD']
+2024-03-03 16:04:21,462 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:21,462 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:21,511 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 454.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,562 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 542.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,562 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:21,562 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['3C', 'KH', 'QC', 'QD', 'AH']
+2024-03-03 16:04:21,562 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:21,562 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:21,610 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 454.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,660 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 542.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,660 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:21,660 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:21,660 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:21,660 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:21,660 - INFO - env.py - _get_winner - 584 - Player 0 won: TwoPair
+2024-03-03 16:04:21,660 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:21,660 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:21,660 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:21,660 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:21,661 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:21,661 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['3H', '3C'] and $458.0
+2024-03-03 16:04:21,661 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['2S', 'JC'] and $542.0
+2024-03-03 16:04:21,661 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:21,661 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:21,661 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 457.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:21,661 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 540.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:21,720 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 456.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:21,779 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 540.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:21,779 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:21,780 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['5D', '4D', 'AD']
+2024-03-03 16:04:21,780 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:21,780 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:21,834 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 540.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,889 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 456.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,889 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:21,889 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['5D', '4D', 'AD', '6C']
+2024-03-03 16:04:21,889 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:21,889 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:21,940 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 540.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,990 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 456.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:21,990 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:21,990 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['5D', '4D', 'AD', '6C', 'TH']
+2024-03-03 16:04:21,990 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:21,990 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:22,038 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 540.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:22,085 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 456.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:22,085 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:22,085 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:22,085 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:22,085 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:22,085 - INFO - env.py - _get_winner - 584 - Player 0 won: Pair
+2024-03-03 16:04:22,086 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:22,086 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:22,086 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:22,086 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:22,086 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:22,086 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['5H', '6D'] and $460.0
+2024-03-03 16:04:22,086 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['3H', 'AS'] and $540.0
+2024-03-03 16:04:22,086 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:22,086 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:22,086 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 539.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:22,086 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 458.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:22,147 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 539.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:22,147 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:22,147 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:22,147 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:22,147 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:22,147 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:22,147 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:22,147 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:22,147 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['TS', '3D'] and $461.0
+2024-03-03 16:04:22,148 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['6D', 'KD'] and $539.0
+2024-03-03 16:04:22,148 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:22,148 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:22,148 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 460.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:22,148 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 537.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:22,213 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 459.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:22,274 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 537.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:22,274 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:22,274 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['TD', 'QD', '8H']
+2024-03-03 16:04:22,274 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:22,274 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:22,422 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 537.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:22,480 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 459.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:22,480 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:22,480 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['TD', 'QD', '8H', '5S']
+2024-03-03 16:04:22,480 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:22,480 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:22,534 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 537.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:22,590 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 459.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:22,590 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:22,591 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['TD', 'QD', '8H', '5S', '5C']
+2024-03-03 16:04:22,591 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:22,591 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:22,652 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 537.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:22,703 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 459.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:22,704 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:22,704 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:22,704 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:22,704 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:22,704 - INFO - env.py - _get_winner - 584 - Player 0 won: TwoPair
+2024-03-03 16:04:22,704 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:22,704 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:22,704 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:22,705 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:22,705 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:22,705 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['2S', '9H'] and $463.0
+2024-03-03 16:04:22,705 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['5C', 'JC'] and $537.0
+2024-03-03 16:04:22,705 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:22,705 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:22,705 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 536.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:22,705 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 461.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:22,804 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 536.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:22,804 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:22,804 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:22,804 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:22,804 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:22,804 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:22,804 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:22,804 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:22,805 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['QD', '4C'] and $464.0
+2024-03-03 16:04:22,805 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['KD', '9C'] and $536.0
+2024-03-03 16:04:22,812 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:22,813 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:22,813 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 463.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:22,813 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 534.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:22,911 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 462.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:22,993 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:22,993 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:22,993 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['TD', '2H', '6C']
+2024-03-03 16:04:22,993 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:22,993 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:23,050 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:23,104 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 462.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:23,104 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:23,105 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['TD', '2H', '6C', '5C']
+2024-03-03 16:04:23,105 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:23,105 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:23,158 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:23,208 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 462.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:23,208 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:23,209 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['TD', '2H', '6C', '5C', 'AD']
+2024-03-03 16:04:23,209 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:23,209 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:23,257 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:23,306 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 462.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:23,306 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:23,306 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:23,306 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:23,306 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:23,306 - INFO - env.py - _get_winner - 584 - Player 1 won: HighCard
+2024-03-03 16:04:23,307 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:23,307 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:23,307 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:23,307 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:23,307 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:23,307 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['6S', 'AS'] and $462.0
+2024-03-03 16:04:23,307 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['9S', '5H'] and $538.0
+2024-03-03 16:04:23,307 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:23,307 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:23,307 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 537.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:23,307 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 460.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:23,368 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 536.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:23,429 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:23,429 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:23,429 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['6C', '4C', 'AC']
+2024-03-03 16:04:23,429 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:23,429 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:23,483 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:23,538 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:23,538 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:23,538 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['6C', '4C', 'AC', '3D']
+2024-03-03 16:04:23,538 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:23,538 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:23,589 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:23,659 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:23,659 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:23,660 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['6C', '4C', 'AC', '3D', 'QD']
+2024-03-03 16:04:23,660 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:23,664 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:23,726 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:23,796 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:23,796 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:23,796 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:23,796 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:23,796 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:23,796 - INFO - env.py - _get_winner - 584 - Player 0 won: TwoPair
+2024-03-03 16:04:23,797 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:23,797 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:23,797 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:23,797 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:23,798 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:23,798 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['TH', '2S'] and $464.0
+2024-03-03 16:04:23,798 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['6H', '9H'] and $536.0
+2024-03-03 16:04:23,798 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:23,798 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:23,798 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 463.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:23,798 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 534.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:23,864 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 462.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:23,931 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:23,931 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:23,931 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JD', '2D', 'AC']
+2024-03-03 16:04:23,931 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:23,931 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:23,986 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,042 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 462.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,042 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:24,042 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JD', '2D', 'AC', 'JH']
+2024-03-03 16:04:24,042 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:24,042 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:24,092 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,145 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 462.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,145 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:24,145 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JD', '2D', 'AC', 'JH', '9D']
+2024-03-03 16:04:24,145 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:24,145 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:24,194 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,242 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 462.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,243 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:24,243 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:24,243 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:24,243 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:24,243 - INFO - env.py - _get_winner - 584 - Player 1 won: TwoPair
+2024-03-03 16:04:24,243 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:24,243 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:24,243 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:24,244 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:24,244 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:24,244 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['5H', '2H'] and $462.0
+2024-03-03 16:04:24,244 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['5C', 'JS'] and $538.0
+2024-03-03 16:04:24,244 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:24,244 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:24,244 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 537.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:24,244 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 460.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:24,304 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 536.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:24,363 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:24,364 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:24,364 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['6S', 'QS', '3C']
+2024-03-03 16:04:24,364 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:24,364 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:24,417 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,470 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,471 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:24,471 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['6S', 'QS', '3C', '9H']
+2024-03-03 16:04:24,471 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:24,471 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:24,521 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,573 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,573 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:24,574 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['6S', 'QS', '3C', '9H', '8D']
+2024-03-03 16:04:24,574 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:24,574 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:24,622 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,670 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,670 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:24,670 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:24,670 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:24,670 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:24,670 - INFO - env.py - _get_winner - 584 - Player 1 won: HighCard
+2024-03-03 16:04:24,671 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:24,671 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:24,671 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:24,671 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:24,671 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:24,671 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['8S', '4D'] and $460.0
+2024-03-03 16:04:24,671 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['2S', 'QD'] and $540.0
+2024-03-03 16:04:24,671 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:24,671 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:24,672 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 459.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:24,672 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 538.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:24,731 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 458.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:24,791 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:24,791 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:24,791 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['5S', 'AH', 'KS']
+2024-03-03 16:04:24,791 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:24,791 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:24,850 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,905 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:24,905 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:24,905 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['5S', 'AH', 'KS', '2C']
+2024-03-03 16:04:24,905 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:24,905 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:24,956 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,006 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,007 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:25,007 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['5S', 'AH', 'KS', '2C', '4H']
+2024-03-03 16:04:25,007 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:25,007 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:25,056 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 538.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,105 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 458.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,105 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:25,105 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:25,105 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:25,105 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:25,105 - INFO - env.py - _get_winner - 584 - Player 0 won: Pair
+2024-03-03 16:04:25,106 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:25,106 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:25,106 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:25,106 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:25,106 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:25,107 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['3H', '6C'] and $462.0
+2024-03-03 16:04:25,107 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['6D', '4D'] and $538.0
+2024-03-03 16:04:25,107 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:25,107 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:25,107 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 537.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:25,107 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 460.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:25,167 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.FOLD - Remaining stack: 537.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:25,167 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:25,167 - INFO - env.py - _get_winner - 584 - Player 0 won: Only remaining player in round
+2024-03-03 16:04:25,168 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:25,168 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:25,168 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:25,168 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:25,168 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:25,168 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['AS', 'AH'] and $463.0
+2024-03-03 16:04:25,168 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['7H', '5D'] and $537.0
+2024-03-03 16:04:25,168 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:25,168 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:25,168 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 462.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:25,169 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 535.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:25,229 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.FOLD - Remaining stack: 462.0, Round pot: 3.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:25,229 - INFO - env.py - _next_player - 608 - Only one player remaining in round
+2024-03-03 16:04:25,230 - INFO - env.py - _get_winner - 584 - Player 1 won: Only remaining player in round
+2024-03-03 16:04:25,230 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:25,230 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:25,230 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:25,230 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:25,230 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:25,230 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['AC', 'KH'] and $462.0
+2024-03-03 16:04:25,230 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['3C', 'JS'] and $538.0
+2024-03-03 16:04:25,231 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:25,231 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:25,231 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 537.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:25,231 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 460.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:25,291 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 536.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:25,351 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:25,351 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:25,351 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['QD', '8D', '6H']
+2024-03-03 16:04:25,351 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:25,352 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:25,406 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,459 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,459 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:25,459 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['QD', '8D', '6H', '7H']
+2024-03-03 16:04:25,459 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:25,460 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:25,511 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,562 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,562 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:25,562 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['QD', '8D', '6H', '7H', 'TS']
+2024-03-03 16:04:25,562 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:25,562 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:25,612 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,662 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,662 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:25,662 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:25,662 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:25,662 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:25,663 - INFO - env.py - _get_winner - 584 - Player 0 won: HighCard
+2024-03-03 16:04:25,663 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:25,663 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:25,663 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:25,663 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:25,663 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:25,663 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['6C', '9C'] and $464.0
+2024-03-03 16:04:25,663 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['AD', 'QD'] and $536.0
+2024-03-03 16:04:25,663 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:25,663 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:25,663 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 463.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:25,664 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 534.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:25,724 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 462.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:25,785 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:25,785 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:25,785 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7C', 'QC', '5S']
+2024-03-03 16:04:25,785 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:25,786 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:25,839 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,894 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 462.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,894 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:25,894 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7C', 'QC', '5S', 'AH']
+2024-03-03 16:04:25,894 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:25,895 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:25,945 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,997 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 462.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:25,997 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:25,997 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['7C', 'QC', '5S', 'AH', '9S']
+2024-03-03 16:04:25,997 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:25,998 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:26,046 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:26,095 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 462.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:26,095 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:26,095 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:26,095 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:26,095 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:26,095 - INFO - env.py - _get_winner - 584 - Player 1 won: TwoPair
+2024-03-03 16:04:26,096 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:26,096 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:26,096 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:26,096 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:26,096 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 0
+2024-03-03 16:04:26,096 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['9D', '2D'] and $462.0
+2024-03-03 16:04:26,096 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['4C', 'AD'] and $538.0
+2024-03-03 16:04:26,096 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:26,096 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:26,096 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.SMALL_BLIND - Remaining stack: 537.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:26,096 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.BIG_BLIND - Remaining stack: 460.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:26,158 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CALL - Remaining stack: 536.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:26,218 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:26,218 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:26,218 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JH', '9C', '5C']
+2024-03-03 16:04:26,218 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:26,218 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:26,270 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:26,323 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:26,323 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:26,323 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JH', '9C', '5C', 'JD']
+2024-03-03 16:04:26,323 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:26,323 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:26,372 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:26,426 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:26,426 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:26,426 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['JH', '9C', '5C', 'JD', '5S']
+2024-03-03 16:04:26,426 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:26,426 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.RIVER ===
+2024-03-03 16:04:26,467 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 460.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:26,513 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 536.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:26,513 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:26,513 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:26,513 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.SHOWDOWN ===
+2024-03-03 16:04:26,513 - INFO - env.py - _initiate_round - 520 - Showdown
+2024-03-03 16:04:26,513 - INFO - env.py - _get_winner - 584 - Player 0 won: TwoPair
+2024-03-03 16:04:26,514 - INFO - env.py - _start_new_hand - 419 - 
+2024-03-03 16:04:26,514 - INFO - env.py - _start_new_hand - 420 - ++++++++++++++++++
+2024-03-03 16:04:26,514 - INFO - env.py - _start_new_hand - 421 - Starting new hand.
+2024-03-03 16:04:26,514 - INFO - env.py - _start_new_hand - 422 - ++++++++++++++++++
+2024-03-03 16:04:26,514 - INFO - env.py - _distribute_cards - 662 - Dealer is at position 1
+2024-03-03 16:04:26,514 - INFO - env.py - _distribute_cards - 670 - Player 0 got ['7D', '7C'] and $464.0
+2024-03-03 16:04:26,514 - INFO - env.py - _distribute_cards - 670 - Player 1 got ['JS', '8C'] and $536.0
+2024-03-03 16:04:26,514 - INFO - env.py - _initiate_round - 503 - 
+2024-03-03 16:04:26,514 - INFO - env.py - _initiate_round - 504 - ===Round: Stage: PREFLOP
+2024-03-03 16:04:26,514 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.SMALL_BLIND - Remaining stack: 463.0, Round pot: 1.0, Community pot: 0, player pot: 1.0
+2024-03-03 16:04:26,514 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.BIG_BLIND - Remaining stack: 534.0, Round pot: 3.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:26,573 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CALL - Remaining stack: 462.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:26,634 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 4.0, Community pot: 0, player pot: 2.0
+2024-03-03 16:04:26,634 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:26,634 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['9S', '2D', 'TC']
+2024-03-03 16:04:26,634 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:26,634 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.FLOP ===
+2024-03-03 16:04:26,689 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:26,741 - INFO - env.py - _process_decision - 407 - Seat 0 (Random): Action.CHECK - Remaining stack: 462.0, Round pot: 0, Community pot: 8.0, player pot: 0
+2024-03-03 16:04:26,741 - INFO - env.py - _next_player - 611 - End round - no current player returned
+2024-03-03 16:04:26,741 - INFO - env.py - _distribute_cards_to_table - 676 - Cards on table: ['9S', '2D', 'TC', 'TS']
+2024-03-03 16:04:26,741 - INFO - env.py - _end_round - 554 - --------------------------------
+2024-03-03 16:04:26,741 - INFO - env.py - _end_round - 555 - ===ROUND: Stage.TURN ===
+2024-03-03 16:04:26,791 - INFO - env.py - _process_decision - 407 - Seat 1 (Random): Action.CHECK - Remaining stack: 534.0, Round pot: 0, Community pot: 8.0, player pot: 0

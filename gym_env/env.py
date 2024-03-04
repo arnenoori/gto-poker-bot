@@ -9,7 +9,6 @@ from gym.spaces import Discrete
 
 from gym_env.cycle import PlayerCycle
 from gym_env.enums import Action, Stage
-from gym_env.rendering import PygletWindow, WHITE, RED, GREEN, BLUE
 from tools.hand_evaluator import get_winner
 from tools.helper import flatten
 
@@ -677,69 +676,16 @@ class HoldemTable(Env):
         log.info(f"Cards on table: {self.table_cards}")
 
     def render(self, mode='human'):
-        """Render the current state"""
-        screen_width = 600
-        screen_height = 400
-        table_radius = 200
-        face_radius = 10
-
-        if self.viewer is None:
-            self.viewer = PygletWindow(screen_width + 50, screen_height + 50)
-        self.viewer.reset()
-        self.viewer.circle(screen_width / 2, screen_height / 2, table_radius, color=BLUE,
-                           thickness=0)
-
-        for i in range(len(self.players)):
-            degrees = i * (360 / len(self.players))
-            radian = (degrees * (np.pi / 180))
-            x = (face_radius + table_radius) * np.cos(radian) + screen_width / 2
-            y = (face_radius + table_radius) * np.sin(radian) + screen_height / 2
-            if self.player_cycle.alive[i]:
-                color = GREEN
-            else:
-                color = RED
-            self.viewer.circle(x, y, face_radius, color=color, thickness=2)
-
-            try:
-                if i == self.current_player.seat:
-                    self.viewer.rectangle(x - 60, y, 150, -50, (255, 0, 0, 10))
-            except AttributeError:
-                pass
-            self.viewer.text(f"{self.players[i].name}", x - 60, y - 15,
-                             font_size=10,
-                             color=WHITE)
-            self.viewer.text(f"Player {self.players[i].seat}: {self.players[i].cards}", x - 60, y,
-                             font_size=10,
-                             color=WHITE)
-            equity_alive = int(round(float(self.players[i].equity_alive) * 100))
-
-            self.viewer.text(f"${self.players[i].stack} (EQ: {equity_alive}%)", x - 60, y + 15, font_size=10,
-                             color=WHITE)
-            try:
-                self.viewer.text(self.players[i].last_action_in_stage, x - 60, y + 30, font_size=10, color=WHITE)
-            except IndexError:
-                pass
-            x_inner = (-face_radius + table_radius - 60) * np.cos(radian) + screen_width / 2
-            y_inner = (-face_radius + table_radius - 60) * np.sin(radian) + screen_height / 2
-            self.viewer.text(f"${self.player_pots[i]}", x_inner, y_inner, font_size=10, color=WHITE)
-            self.viewer.text(f"{self.table_cards}", screen_width / 2 - 40, screen_height / 2, font_size=10,
-                             color=WHITE)
-            self.viewer.text(f"${self.community_pot}", screen_width / 2 - 15, screen_height / 2 + 30, font_size=10,
-                             color=WHITE)
-            self.viewer.text(f"${self.current_round_pot}", screen_width / 2 - 15, screen_height / 2 + 50,
-                             font_size=10,
-                             color=WHITE)
-
-            x_button = (-face_radius + table_radius - 20) * np.cos(radian) + screen_width / 2
-            y_button = (-face_radius + table_radius - 20) * np.sin(radian) + screen_height / 2
-            try:
-                if i == self.player_cycle.dealer_idx:
-                    self.viewer.circle(x_button, y_button, 5, color=BLUE, thickness=2)
-            except AttributeError:
-                pass
-
-        self.viewer.update()
-
+        if mode == 'human':
+            # Your code to render the environment for human viewing goes here
+            # This might involve creating a window, drawing objects, etc.
+            pass
+        elif mode == 'rgb_array':
+            # Return an rgb_array representing the current state of the environment
+            # This is typically used for automated processing rather than human viewing
+            return np.array(...)  # Placeholder for an actual image array
+        else:
+            super().render(mode=mode)  # Call the superclass method if another mode is requested
 
 class PlayerShell:
     """Player shell"""

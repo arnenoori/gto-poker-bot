@@ -15,6 +15,6 @@ setup(
     license='MIT',
     description=('OpenAi gym for textas holdem poker with graphical rendering and montecarlo.'),
     packages=find_packages(exclude=['tests', 'gym_env', 'tools']),
-    install_requires=['pyglet', 'pytest', 'pandas', 'pylint', 'gym', 'numpy', 'matplotlib'],
+    install_requires=['pytest', 'pandas', 'pylint', 'gym', 'numpy', 'matplotlib'],
     platforms='any',
 )
