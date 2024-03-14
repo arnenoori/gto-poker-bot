@@ -37,3 +37,27 @@ Future expansions of the project include expanding game varieties, improved oppo
 - Arne Noori
 - Ido Pesok
 - Wes Convery
+
+
+## Quick install
+
+Create venv
+```
+python3 -m venv env
+```
+Activate it (Mac)
+```
+source env/bin/activate
+```
+Install requirements
+```
+pip install -r requirements.txt
+```
+Add OpenAI Key
+```
+export OPENAI_API_KEY=yourkeyhere
+```
+Run it
+```
+python play.py
+```

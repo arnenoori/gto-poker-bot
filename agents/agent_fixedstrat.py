@@ -15,7 +15,6 @@ TODO:
 
 class GTOAgent:
     def __init__(self):
-        # preflop strategy as defined previously
         self.preflop_strategy = {
             'UTG': ['AA', 'KK', 'QQ', 'JJ', 'AKs', 'AQs'],
             'MP': ['AA', 'KK', 'QQ', 'JJ', 'TT', '99', 'AKs', 'AQs', 'AJs', 'KQs'],
@@ -24,49 +23,64 @@ class GTOAgent:
             'SB': ['AA', 'KK', 'QQ', 'JJ', 'TT', '99', '88', '77', '66', 'AKs', 'AQs', 'AJs', 'ATs', 'KQs', 'KJs', 'KTs', 'QJs', 'QTs'],
             'BB': ['AA', 'KK', 'QQ', 'JJ', 'TT', '99', '88', '77', '66', '55', 'AKs', 'AQs', 'AJs', 'ATs', 'KQs', 'KJs', 'KTs', 'QJs', 'QTs', 'JTs']
         }
-        # simplified postflop strategy
         self.postflop_strategy = {
             'strong_hand': Action.RAISE,
             'medium_hand': Action.CALL,
             'weak_hand': Action.FOLD
         }
 
-    def action(self, observation):
-        # simplified action decision based on preflop and postflop strategy
+    def action(self, action_space, observation, info):
         stage = observation['stage']
         if stage == 'preflop':
             return self.preflop_action(observation)
         else:
-            return self.postflop_action(observation)
+            return self.postflop_action(action_space, observation, info)
 
     def preflop_action(self, observation):
         position = observation['position']
         hole_cards = observation['hole_cards']
         hole_cards_str = ''.join(sorted(hole_cards))
-
         if hole_cards_str in self.preflop_strategy[position]:
             return Action.RAISE
         else:
             return Action.FOLD
 
-    def postflop_action(self, observation):
-        # Use the hand evaluator for a more accurate hand strength assessment
+    def postflop_action(self, action_space, observation, info):
         hand_strength, hand_type = self.evaluate_hand_strength(observation)
-         
-         # Adjust the decision thresholds based on the hand type or strength
+
+        # Adjust the decision thresholds based on the hand type or strength
         if hand_type in ['StraightFlush', 'FourOfAKind', 'FullHouse', 'Flush', 'Straight']:
-            return self.postflop_strategy['strong_hand']
+            action = self.postflop_strategy['strong_hand']
         elif hand_type in ['ThreeOfAKind', 'TwoPair', 'Pair']:
-            return self.postflop_strategy['medium_hand']
+            action = self.postflop_strategy['medium_hand']
         else:
-            return self.postflop_strategy['weak_hand']
+            action = self.postflop_strategy['weak_hand']
+
+        # Bluff with a certain probability if the bot thinks the opponent has a weak hand
+        if hand_type not in ['StraightFlush', 'FourOfAKind', 'FullHouse', 'Flush', 'Straight'] and self.opponent_weak_hand_probability(observation) > 0.7:
+            if random.random() < 0.3:  # Bluff 30% of the time
+                action = Action.RAISE
+
+        # Ensure the chosen action is legal
+        if action not in action_space:
+            if Action.CHECK in action_space:
+                action = Action.CHECK
+            else:
+                action = Action.FOLD
+
+        return action
 
     def evaluate_hand_strength(self, observation):
-        # Use the hand evaluator to determine the hand's strength
         player_hand = observation['hole_cards']
         table_cards = observation['community_cards']
         _, hand_type = get_winner([player_hand], table_cards)
-        # For simplicity, we're not calculating a numeric strength but returning the hand type
-        # In a more sophisticated implementation, you might calculate a more nuanced hand strength
         return hand_type
-    
+
+    def opponent_weak_hand_probability(self, observation):
+        # Implement a more sophisticated logic to estimate the probability of the opponent having a weak hand
+        # This can be based on factors like the opponent's previous actions, the community cards, etc.
+        # For simplicity, we'll just return a random probability for now
+        return random.random()
+
+    def __str__(self):
+        return "GTOAgent"

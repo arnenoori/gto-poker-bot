@@ -8,7 +8,11 @@ so we can collaborate and create the best possible player.
 Usage:
 ------
 
+- brew install poetry
+- poetry env use python3.11
+
 Run:
+
 
 - Install Python 3.11, I would also recommend to install PyCharm.
 - Install Poetry with ``curl -sSL https://install.python-poetry.org | python3 -``
