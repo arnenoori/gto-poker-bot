@@ -14,13 +14,13 @@ Run:
 - Activate it with ``poetry shell``
 - Install all required packages with ``poetry install --no-root``
 - Run 6 random players playing against each other:
-  ``poetry run python main.py selfplay random --render`` or
-- To manually control the players:``poetry run python main.py selfplay keypress --render``
+  ``poetry run python main.py selfplay random`` or
+- To manually control the players:``poetry run python main.py selfplay keypress``
 - Example of genetic algorithm with self improvement: ``poetry run python main.py selfplay equity_improvement --improvement_rounds=20 --episodes=10``
 - In order to use the C++ version of the equity calculator, you will also need to install Visual Studio 2019 (or GCC over Cygwin may work as well). To use it, use the -c option when running main.py.
 - For more advanced users: ``poetry run python main.py selfplay dqn_train -c`` will start training the deep Q agent with C++ Monte Carlo for faster calculation
 
-agents
+### agents
 ---
 Please add your model based agents here.
 
@@ -32,10 +32,7 @@ Please add your model based agents here.
 
 Note that the observation property is a dictionary that contains all the information about the players and table that can be used to make a decision.
 
-Neuron poker toolkit:
-
-tools
-~~~~~
+### neuronpoker toolkit
 
 -  ``hand_evaluator.py``: evaluate the best hand of multiple players
 -  ``helper.py``: helper functions
@@ -45,8 +42,7 @@ tools
    preflight ranges for other players.
 -  ``montecarlo_cpp``: c++ implementation of equity calculator. Around 500x faster than python version
 
-tests
-^^^^^
+### testing
 
 -  ``test_gym_env.py``: tests for the end.
 -  ``test_montecarlo.py``: tests for the hands evaluator and python

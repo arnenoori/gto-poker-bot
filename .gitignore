@@ -1,6 +1,9 @@
 ocr
 screenshots
-log
+log/
+default_info.log
+default.log
 .env
 env
 __pycache__/
+log/*.log
