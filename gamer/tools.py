@@ -2,7 +2,7 @@ tools = [
     {
         "type": "function",
         "function": {
-            "name": "Wait",
+            "name": "wait",
             "description": "Wait for a few seconds if it is not your turn.",
             "parameters": {},
         },
@@ -10,7 +10,7 @@ tools = [
     {
         "type": "function",
         "function": {
-            "name": "OK",
+            "name": "ok",
             "description": "Click OK to finalize the Raise action after choosing to Raise and setting the betting amount on the scale.",
             "parameters": {},
         },
@@ -18,7 +18,7 @@ tools = [
     {
         "type": "function",
         "function": {
-            "name": "Continue",
+            "name": "continue",
             "description": "Choose to continue to the next game after someone wins the hand.",
             "parameters": {},
         },
@@ -26,7 +26,7 @@ tools = [
     {
         "type": "function",
         "function": {
-            "name": "MakeMove",
+            "name": "makeMove",
             "description": "Calculate the optimal move (fold, check, call, or raise) based on the community cards and the cards in hand.",
             "parameters": {
                 "type": "object",
