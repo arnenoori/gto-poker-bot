@@ -14,10 +14,10 @@ operating_system = OperatingSystem()
 debug = True
 
 
-def main(game):
+def main():
     print("[poker-agent]")
 
-    system_prompt = get_system_prompt(game)
+    system_prompt = get_system_prompt()
     system_message = {"role": "system", "content": system_prompt}
     messages = [system_message]
     # wait for two seconds
@@ -36,38 +36,28 @@ def main(game):
             print("[poker-agent] truncating earlier message")
             messages = [system_message] + messages[-4:]
 
-        if game == "poker":
-            operation = get_poker_operation(
+        operation = get_poker_operation(
                 messages
             )  # at https://www.247freepoker.com/
-        elif game == "sm64":
-            operation = get_poker_operation(messages)
-        else:
-            operation = get_sm64_operation(messages)
+            
         print("[poker-agent] operation", operation)
 
-        if operation.get("action") == "wait" or operation.get("action") == "Wait":
-            print("action is wait, break")
-            continue
-
-        operate(operation, game)
+        operate(operation)
 
         loop_count += 1
         if loop_count > loop_max:
             break
 
 
-def operate(preprocessed_operation, game):
+def operate(preprocessed_operation):
     if debug:
         print("[poker-agent] operate")
 
     # print("[poker-agent] action", action)
     # print("[poker-agent] thought", thought)
     # print("[poker-agent] duration", thought)
-    if game == "poker":
-        operations = adapters.poker(preprocessed_operation)
-    else:
-        operations = adapters.sm64(preprocessed_operation)
+    operations = adapters.poker(preprocessed_operation)
+
     if debug:
         print("[poker-agent] operations", operations)
 
@@ -102,15 +92,4 @@ def operate(preprocessed_operation, game):
 
 
 if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser(description="Run the game with specified options.")
-    parser.add_argument(
-        "-game",
-        type=str,
-        default="poker",
-        help='The name of the game to run. Default is "poker".',
-    )
-    args = parser.parse_args()
-
-    main(game=args.game)
+    main()

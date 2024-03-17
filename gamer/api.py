@@ -1,6 +1,7 @@
 import os
 import base64
 import json
+from gamer.fixed import calculate_action
 from gamer.operating_system import OperatingSystem
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -36,7 +37,7 @@ def get_sm64_operation(messages):
     with open(screenshot_filename, "rb") as img_file:
         img_base64 = base64.b64encode(img_file.read()).decode("utf-8")
 
-    user_prompt = "See the screenshot of the game provide your next action. Only respond with the next action in valid json."
+    user_prompt = "See the screenshot of the game. Provide the board state in valid json."
 
     vision_message = {
         "role": "user",
@@ -74,7 +75,7 @@ def get_sm64_operation(messages):
     return content
 
 
-def get_poker_operation(messages):
+def get_poker_operation(move_or_not_messages):
     if config.verbose:
         print("[poker-agent] get_poker_operation")
 
@@ -89,7 +90,7 @@ def get_poker_operation(messages):
     with open(screenshot_filename, "rb") as img_file:
         img_base64 = base64.b64encode(img_file.read()).decode("utf-8")
 
-    user_prompt = "See the screenshot of the game provide your next action. Only respond with the next action in valid json."
+    user_prompt = "See the screenshot of the game. Provide the board state in valid json."
 
     vision_message = {
         "role": "user",
@@ -101,14 +102,14 @@ def get_poker_operation(messages):
             },
         ],
     }
-    messages.append(vision_message)
+    move_or_not_messages.append(vision_message)
 
     response = client.chat.completions.create(
         model="gpt-4-vision-preview",
-        messages=messages,
+        messages=move_or_not_messages,
         presence_penalty=1,
         frequency_penalty=1,
-        temperature=0.7,
+        temperature=0,
         max_tokens=3000,
     )
 
@@ -121,21 +122,23 @@ def get_poker_operation(messages):
     content_str = content
 
     content_json = json.loads(content)
-    action = content_json.get("action")
-    print("action", action)
 
-    action = action.lower()
-    if action == "Wait" or action == "wait":
+    actionArguments = json.loads(content_json.get("boardState"))
 
+    if not actionArguments:
+        content_json["x"] = "0.50"
+        content_json["y"] = "0.50"
         return content_json
-    elif action == "Continue" or action == "continue":
-        print("action is continue")
+
+    gameOver = actionArguments.get("isGameOver", False)
+
+    if gameOver:
         content_json["x"] = "0.50"
         content_json["y"] = "0.50"
         return content_json
 
     processed_content = process_ocr(
-        messages, content_json, content_str, screenshot_filename
+        move_or_not_messages, content_json, content_str, screenshot_filename
     )
 
     return processed_content
@@ -156,58 +159,99 @@ def process_ocr(messages, content, content_str, screenshot_filename):
             content,
         )
 
-    text_to_click = content.get("action")
+    print(f'\n\nCONTENT {content} \n\n')
 
-    if config.verbose:
-        print(
-            "[process_ocr] text_to_click",
-            text_to_click,
-        )
+    communityCards = json.loads(content.get("boardState")).get("communityCards")
+    holeCards = json.loads(content.get("boardState")).get("holeCards")
+    currentPotValue = json.loads(content.get("boardState")).get("currentPotValue", 10)
+    whoRaised = json.loads(content.get("boardState")).get("whoRaised", [])
+
+
+    if not holeCards:
+        content["x"] = "0.50"
+        content["y"] = "0.50"
+        return content
+    
+    raiseAmounts = [raise_['raise'] for raise_ in whoRaised]
+
+    action = calculate_action(communityCards, holeCards, currentPotValue, raiseAmounts)
+
+    text_to_click = action
+
+    # if config.verbose:
+    #     print(
+    #         "[process_ocr] text_to_click",
+    #         text_to_click,
+    #     )
     # upcase the first letter of the text_to_click
     text_to_click = text_to_click[0].upper() + text_to_click[1:]
 
-    # Initialize EasyOCR Reader
-    reader = easyocr.Reader(["en"])
+    # # Initialize EasyOCR Reader
+    # reader = easyocr.Reader(["en"])
 
-    # Read the screenshot
-    result = reader.readtext(screenshot_filename)
+    # # Read the screenshot
+    # result = reader.readtext(screenshot_filename)
     # if config.verbose:
     #     print("\n\n\n[process_ocr] results", result)
     #     print("\n\n\n")
 
-    try:
+    # try:
 
-        text_element_index = get_text_element(
-            result, text_to_click, screenshot_filename
-        )
-        coordinates = get_text_coordinates(
-            result, text_element_index, screenshot_filename
-        )
-    except Exception as e:
-        print("[process_ocr] error:", e)
-        print("[process_ocr] wait and try again")
-        return {
-            "thought": "It failed so I need to wait and try again",
-            "action": "wait",
-        }
+    #     text_element_index = get_text_element(
+    #         result, text_to_click, screenshot_filename
+    #     )
+    #     coordinates = get_text_coordinates(
+    #         result, text_element_index, screenshot_filename
+    #     )
+    # except Exception as e:
+    #     print("[process_ocr] error:", e)
+    #     print("[process_ocr] wait and try again")
+    #     try:
+    #         if text_to_click == "Check": 
+    #             text_element_index = get_text_element(
+    #                 result, "Call", screenshot_filename
+    #             )
+    #             coordinates = get_text_coordinates(
+    #                 result, text_element_index, screenshot_filename
+    #             )
+    #         elif text_to_click == "Call":
+    #             text_element_index = get_text_element(
+    #                 result, "Check", screenshot_filename
+    #             )
+    #             coordinates = get_text_coordinates(
+    #                 result, text_element_index, screenshot_filename
+    #             )
+    #     except:
+    #         pass
+    #     return {
+    #         "thought": "It failed so I need to wait and try again",
+    #         "action": "wait",
+    #     }
+
+    if text_to_click == "Check":
+        coordinates = { 'x': 0.556, 'y': 0.86}
+    elif text_to_click == "Call":
+        coordinates = { 'x': 0.556, 'y': 0.86}
+    elif text_to_click == "Fold":
+        coordinates = { 'x': 0.421, 'y': 0.86}
 
     # add `coordinates`` to `content`
     content["x"] = coordinates["x"]
     content["y"] = coordinates["y"]
 
-    if config.verbose:
-        print(
-            "[process_ocr] text_element_index",
-            text_element_index,
-        )
-        print(
-            "[process_ocr] coordinates",
-            coordinates,
-        )
-        print(
-            "[process_ocr] final content",
-            content,
-        )
+    # if config.verbose:
+    #     print(
+    #         "[process_ocr] text_element_index",
+    #         text_element_index,
+    #     )
+    #     print(
+    #         "[process_ocr] coordinates",
+    #         coordinates,
+    #     )
+    #     print(
+    #         "[process_ocr] final content",
+    #         content,
+    #     )
     processed_content = content
 
     # wait to append the assistant message so that if the `processed_content` step fails we don't append a message and mess up message history
