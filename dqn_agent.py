@@ -19,6 +19,8 @@ class PokerEnv:
         self.state = None
         self.done = False
         self.step_count = 0
+        self.player_hand = []  # Initialize player_hand as an empty list
+        self.community_cards = []  # Initialize community_cards as an empty list
 
     def reset(self):
         self.deck = list(range(NUM_CARDS))
@@ -29,7 +31,10 @@ class PokerEnv:
         self.done = False
         self.step_count = 0
         return self.state
-
+    
+    def state_size(self):
+        return len(self.player_hand) + len(self.community_cards)
+    
     def step(self, action):
         self.step_count += 1
 
@@ -125,6 +130,7 @@ class DQNAgent:
     def act(self, state):
         if np.random.rand() <= self.epsilon:
             return random.randrange(self.action_size)
+        state = np.reshape(state, [1, self.state_size])
         act_values = self.model.predict(state)
         return np.argmax(act_values[0])
 
@@ -134,13 +140,17 @@ class DQNAgent:
         for state, action, reward, next_state, done in minibatch:
             target = reward
             if not done:
-                next_state = np.reshape(next_state, [1, len(next_state)])
+                next_state = np.array(next_state)  # Convert next_state to a NumPy array
+                next_state = np.reshape(next_state, (1, -1))  # Reshape next_state to (1, state_size)
                 target = reward + self.gamma * np.amax(self.model.predict(next_state)[0])
-            target_f = self.model.predict(np.reshape(state, [1, len(state)]))
+            state = np.reshape(state, [1, -1])  # Reshape state to (1, state_size)
+            target_f = self.model.predict(state)
             target_f[0][action] = target
             states.append(state[0])
             targets_f.append(target_f[0])
-        self.model.fit(np.array(states), np.array(targets_f), epochs=1, verbose=0)
+        states = np.array(states)  # Convert states to a NumPy array
+        targets_f = np.array(targets_f)  # Convert targets_f to a NumPy array
+        self.model.fit(states, targets_f, epochs=1, verbose=0)
         if self.epsilon > self.epsilon_min:
             self.epsilon *= self.epsilon_decay
 
@@ -155,6 +165,7 @@ def play_game(env, agent):
     while not done:
         print(f"\nPlayer's Hand: {env.player_hand}")
         print(f"Community Cards: {env.community_cards}")
+        state = np.reshape(state, [1, env.state_size()])
         action = agent.play(state)
         if action == 0:
             print("Agent action: Fold")
@@ -171,20 +182,22 @@ def play_game(env, agent):
 # Train the Deep Q-Network
 if __name__ == "__main__":
     env = PokerEnv()
-    state_size = len(env.reset())
+    state_size = env.state_size()
     action_size = len(env.action_space)
     agent = DQNAgent(state_size, action_size)
 
     for e in range(NUM_EPISODES):
         state = env.reset()
-        state = np.reshape(state, [1, len(state)])
         done = False
         score = 0
         while not done:
+            if state_size > 0:
+                state = np.reshape(np.array(state), [1, state_size])
             action = agent.act(state)
             next_state, reward, done, _ = env.step(action)
             score += reward
-            next_state = np.reshape(next_state, [1, len(next_state)])  
+            if state_size > 0:
+                next_state = np.reshape(np.array(next_state), [1, state_size])
             agent.remember(state, action, reward, next_state, done)
             state = next_state
             if done:
@@ -199,6 +212,3 @@ if __name__ == "__main__":
         play_again = input("Play again? (y/n): ")
         if play_again.lower() != 'y':
             break
-
-
-        
