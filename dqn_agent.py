@@ -229,6 +229,18 @@ class DQNAgent:
         if self.epsilon > self.epsilon_min:
             self.epsilon *= self.epsilon_decay
 
+    def load(self, name):
+        self.model.load_weights(name)
+
+    def save(self, name):
+        self.model.save_weights(name)
+
+    def act(self, state, eval_mode=False):
+        if not eval_mode and np.random.rand() <= self.epsilon:
+            return random.randrange(self.action_size)
+        act_values = self.model.predict(np.array([state]))
+        return np.argmax(act_values[0])
+    
 def play_game(env, agent):
     state = env.reset()  # Reset the environment for a new game
     done = False
@@ -257,6 +269,26 @@ def train_agent(env, agent, episodes=1000, batch_size=32, verbose=True):
         # Decay epsilon
         agent.epsilon = max(agent.epsilon_min, agent.epsilon_decay * agent.epsilon)
 
+def evaluate_agent(env, agent, num_episodes=100):
+    total_rewards = []
+    num_wins = 0
+    for _ in range(num_episodes):
+        state = env.reset()
+        done = False
+        episode_reward = 0
+        while not done:
+            action = agent.act(state, eval_mode=True)
+            next_state, reward, done, _ = env.step(action)
+            state = next_state
+            episode_reward += reward
+        total_rewards.append(episode_reward)
+        if episode_reward > 0:
+            num_wins += 1
+    avg_reward = sum(total_rewards) / num_episodes
+    win_rate = num_wins / num_episodes
+    print(f"Evaluation over {num_episodes} episodes:")
+    print(f"Average Reward: {avg_reward:.2f}")
+    print(f"Win Rate: {win_rate:.2f}")
 
 if __name__ == "__main__":
     NUM_CARDS = 52  # Assuming this constant is defined
@@ -266,3 +298,5 @@ if __name__ == "__main__":
     
     agent = DQNAgent(state_size, action_size)
     train_agent(env, agent, episodes=1000)
+    agent.save("trained_model.h5")  # Save the trained model
+    evaluate_agent(env, agent, num_episodes=100)
