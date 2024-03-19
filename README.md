@@ -1,6 +1,6 @@
-# Advanced Poker Bot Using Reinforcement Learning
-
 ![Poker](media/cowboy_bebop_poker.gif)
+
+## GTO Poker Bot
 
 <!-- 
 Acknowledges that this is a project in CSC 481 - Knowledge Based Systems at Cal Poly and includes the instructor's name
@@ -12,7 +12,13 @@ For example, if you validated a heuristic agent and a tree search agent by havin
 
 -->
 
-## Getting started (replicating results):
+### Acknowledgements
+
+This project is part of CSC 481 - Knowledge Based Systems at Cal Poly with Professor Rodrigo Canaan.
+
+The autonomous part of our project is based of the work of self-operating coomputer by HyperwriteAI https://github.com/OthersideAI/self-operating-computer.
+
+### Getting started (replicating results):
 ------
 Clone the repository
 ```
@@ -48,7 +54,7 @@ or you can also run with
 python play.py --fixed
 ```
 
-To run the agent with the DQN agent first train the agent by running:
+To run the agent with the DQN agent first train the agent by running (or you can use the pretrained model trained_model.h5):
 ```
 python dqn_agent.py
 ```
@@ -62,49 +68,52 @@ Or if you want to run the random agent:
 python play.py --random
 ```
 
-### agents
+### 3 different agents
 ---
-Please add your model based agents here.
 
 -  ``agent_random.py``: an agent making random decisions (used for testing and comparison)
 -  ``agent_dqn.py``: a deep q agent
 -  ``fixed.py``: a fixed model
 
-## Repository Structure
+### Repository Structure
 ---
 
-* [gamer/](./group-project/gamer)
-  * [adapter.py](./group-project/gamer/adapter.py)
-  * [api.py](./group-project/gamer/api.py)
-  * [config.py](./group-project/gamer/config.py)
-  * [fixed.py](./group-project/gamer/fixed.py)
-  * [operating_system.py](./group-project/gamer/operating_system.py)
-  * [prompts.py](./group-project/gamer/prompts.py)
-  * [tools.py](./group-project/gamer/tools.py)
-  * [utils.py](./group-project/gamer/utils.py)
-* [media/](./group-project/media)
-  * [cowboy_bebop_poker.gif](./group-project/media/cowboy_bebop_poker.gif)
-* [report/](./group-project/report)
-  * [proposal/](./group-project/report/proposal)
-    * [CSC481_Project_Proposal.pdf](./group-project/report/proposal/CSC481_Project_Proposal.pdf)
-    * [projectproposal.md](./group-project/report/proposal/projectproposal.md)
-  * [481_report.md](./group-project/report/481_report.md)
-  * [487_report.md](./group-project/report/487_report.md)
-  * [final_presentation.pdf](./group-project/report/final_presentation.pdf)
-* [.env](./group-project/.env)
-* [.gitignore](./group-project/.gitignore)
-* [README.md](./group-project/README.md)
-* [dqn_agent.py](./group-project/dqn_agent.py)
-* [evaluate.py](./group-project/evaluate.py)
-* [play.py](./group-project/play.py)
-* [random_agent.py](./group-project/random_agent.py)
-* [requirements.txt](./group-project/requirements.txt)
+* [gamer/](./gamer)
+  * [adapter.py](./gamer/adapter.py)
+  * [api.py](./gamer/api.py)
+  * [config.py](./gamer/config.py)
+  * [fixed.py](./gamer/fixed.py)
+  * [operating_system.py](./gamer/operating_system.py)
+  * [prompts.py](./gamer/prompts.py)
+  * [tools.py](./gamer/tools.py)
+  * [utils.py](./gamer/utils.py)
+* [media/](./media)
+  * [cowboy_bebop_poker.gif](./media/cowboy_bebop_poker.gif)
+* [report/](./report)
+  * [proposal/](./report/proposal)
+    * [CSC481_Project_Proposal.pdf](./report/proposal/CSC481_Project_Proposal.pdf)
+    * [projectproposal.md](./report/proposal/projectproposal.md)
+  * [481_report.md](./report/481_report.md)
+  * [487_report.md](./report/487_report.md)
+  * [final_presentation.pdf](./report/final_presentation.pdf)
+* [.env](./.env)
+* [.gitignore](./.gitignore)
+* [README.md](./README.md)
+* [dqn_agent.py](./dqn_agent.py)
+* [evaluate.py](./evaluate.py)
+* [play.py](./play.py)
+* [random_agent.py](./random_agent.py)
+* [requirements.txt](./requirements.txt)
 
-How it works:
+###How it works:
 
-Image of the bot 
+![Bot](media/ocr_image_output.png)
 
-## Results
+Read more in our technical report.
+
+### Results
+
+![Results](media/evaluator.png)
 
 Results after 1000 hands:
 DQN Agent Wins: 51
