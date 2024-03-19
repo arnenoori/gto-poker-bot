@@ -233,7 +233,7 @@ class DQNAgent:
         self.model.load_weights(name)
 
     def save(self, name):
-        self.model.save_weights(name)
+        self.model.save(name)
 
     def act(self, state, eval_mode=False):
         if not eval_mode and np.random.rand() <= self.epsilon:
@@ -298,5 +298,5 @@ if __name__ == "__main__":
     
     agent = DQNAgent(state_size, action_size)
     train_agent(env, agent, episodes=1000)
-    agent.save("trained_model.h5")  # Save the trained model
+    agent.save("trained_model.h5")  # Save the entire trained model
     evaluate_agent(env, agent, num_episodes=100)
