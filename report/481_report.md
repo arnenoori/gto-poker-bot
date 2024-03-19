@@ -23,15 +23,13 @@ A summary of results (e.g. “our final trained model had an accuracy of 80% on 
  ]
 -->
 
-This report presents GTO Poker Bot, an AI system designed to find an optimal poker strategy using a combination of knowledge-based approaches and fixed strategies. The bot operates at the browser level, simulating human-like gameplay by interpreting the game state visually. It offers two agent types: a fixed strategy agent based on game theory optimal principles and a Deep Q-Network (DQN) agent that learns through self-play. The project aims to explore the potential for AI to solve the complex game of poker, which, unlike chess and Go, remains an unsolved challenge. The bot is implemented in Python and can be easily adapted to work on various poker platforms. The focus of this report is on the knowledge-based aspects of the project, particularly the fixed strategy agent and its performance in comparison to the DQN agent.
+GTO Poker Bot solves the problem of finding an optimal poker strategy using knowledge-based approaches and fixed strategies. The bot simulates human-like gameplay by interpreting the game state visually and clicking buttons in the browser. It has two agent types: a fixed strategy agent based on game theory optimal principles and a Deep Q-Network (DQN) agent that learns through self-play.
 
-Poker presents a unique challenge for artificial intelligence due to its elements of imperfect information, stochasticity, and game-theoretic complexity. While AI has achieved superhuman performance in perfect information games like chess (BigFish) and Go (AlphaZero), poker remains an unsolved problem with room for further strategic optimization. This project, GTO Poker Bot, aims to tackle this challenge by developing an AI system that can learn and execute optimal poker strategies through a combination of knowledge-based approaches and reinforcement learning.
+We chose this project to explore how AI can solve the complex game of poker, which remains an unsolved challenge unlike chess and Go. Poker has elements of imperfect information, randomness, and complex game theory, making it a fertile area for AI research.
 
-The primary motivation behind this project is to explore the potential for AI to master the intricate decision-making processes required in poker. By creating a bot that operates at the browser level and interprets the game state visually, we simulate human-like gameplay, enabling the AI to interact with various poker platforms without relying on direct access to the game's internal state. This approach opens up possibilities for testing and refining poker AI in real-world settings.
+The bot is implemented in Python and can work on various poker platforms. It uses the GPT-V model to interpret game state from screenshots and has a modular design with the fixed strategy agent in fixed.py and DQN agent in dqn_agent.py. Key parameters include a 52-card deck, predetermined starting stacks, and small/big blind amounts.
 
-The GTO Poker Bot offers two distinct agent types: a fixed strategy agent and a DQN agent. The fixed strategy agent is the focus of this report, as it embodies the knowledge-based aspects of the project. This agent bases its decisions on game theory optimal principles, executing a predefined strategy that takes into account hand strength, pot odds, and opponent actions. By comparing the performance of this agent to the DQN agent, we can evaluate the effectiveness of a knowledge-based approach in approximating optimal poker strategy.
-
-The implementation of GTO Poker Bot utilizes Python and can be easily adapted to work on various poker platforms. Users can run the "play.py" script to observe the bot playing poker autonomously, making decisions based on the visual interpretation of the game state.
+After running 1000 simulated hands, the fixed strategy agent won 927 hands, the DQN agent won 51, the random agent won 6, with 16 ties. This shows the fixed strategy agent, based on game theory optimal principles, significantly outperforms the learning-based DQN agent and random play. However, the DQN agent's poor performance suggests limitations in its ability to learn an effective strategy in this complex domain.
 
 ## 2. Problem Specification
 
@@ -43,25 +41,27 @@ If you’re working with a game, a short description of its rules is also desira
 It is also advisable that you state parameters that relate to the problem specification, such as size of the board, number of levels, number of training samples, size of the dictionary used etc. Parameters that are very implementation-specific (such as learning rates, search depth, mutation/crossover rates) are better stated in section 5, although some overlap is also acceptable.]
 -->
 
-### Problem Description
+The GTO Poker Bot project addresses the challenge of creating an AI agent that can play poker optimally by visually interpreting the game state and taking actions through a web browser, simulating human play. Poker presents unique difficulties for AI due to its elements of imperfect information, stochastic events, and the need for complex strategic reasoning.
 
-The project aims to address the challenge of creating an intelligent agent capable of playing poker autonomously by simulating human-like interactions with a web browser. The goal is to navigate the complexities of poker, a game characterized by incomplete information, strategic depth, and the necessity for bluffing and adaptation. Unlike Chess or Go, which have seen AI achieve superhuman performance, poker remains a largely unsolved domain, offering a fertile ground for AI research and development.
+Unlike perfect information games such as chess and Go, poker involves hidden information (opponents' private cards), which makes it challenging to determine the optimal strategy. The game also includes random events in the form of card dealing, requiring the AI to reason under uncertainty. Furthermore, poker demands sophisticated strategic thinking, including the ability to bluff, model opponents, and adapt to changing game dynamics.
 
-### Main Challenges
+The main challenges in developing a poker AI include:
 
-1. **Incomplete Information:** Unlike deterministic games with perfect information, poker involves hidden information (opponent's cards), making it challenging to predict outcomes accurately.
-2. **Dynamic Strategy:** The necessity to adapt strategies based on the evolving game state and opponents' actions.
-3. **Simulating Human Interaction:** Developing an agent that can interact with web-based poker platforms as a human would, through vision and action.
+1. Handling imperfect information: The AI must make decisions based on incomplete knowledge of the game state, considering the range of possible opponent holdings and strategies.
+2. Dealing with stochastic events: The random dealing of cards introduces uncertainty, requiring the AI to reason probabilistically and adapt its strategy accordingly.
+3. Modeling opponents: To make optimal decisions, the AI must be capable of inferring opponents' likely holdings and strategies based on their actions.
+4. Developing a robust and adaptive strategy: The AI needs to employ a strategy that is effective against a wide range of opponent playing styles and able to adjust as the game progresses.
+5. Interacting with the environment: The AI must be able to interpret the game state visually and execute actions through a web browser interface, simulating human interaction with the poker platform.
 
-### Progress in the Domain
+While significant progress has been made in poker AI, with notable achievements like Libratus [1], Pluribus [2], and DeepStack [4], poker remains an unsolved domain compared to games like chess and Go. Existing approaches often rely on computationally intensive algorithms and require direct access to the game state, making them unsuitable for deployment in real-world online poker environments.
 
-AI research in poker has made significant strides, with notable projects like DeepStack and Libratus demonstrating the potential for AI to compete at high levels. These projects have utilized deep learning and game theory to navigate the complexities of poker, providing a foundation for further exploration.
+The GTO Poker Bot project aims to tackle these challenges by developing an AI agent that can learn and execute optimal strategies in a human-like manner, interacting with the poker platform through visual interpretation and simulated actions. The project explores the potential of combining knowledge-based approaches, such as a fixed strategy based on game-theoretic principles, with reinforcement learning techniques to create an effective and adaptable poker AI.
 
 ### Tools and Starting Points
 
 The project leverages TensorFlow for implementing the DQN agent and GPT-V for interpreting the game state from screenshots. The fixed strategy agent [fixed.py] and the DQN agent [dqn_agent.py] serve as the core components, with the operational framework [play.py]) enabling interaction with online poker games.
 
-### PEAS Specification (Simplified)
+### PEAS
 
 - **Performance:** Success is measured by the agent's ability to win hands and maximize earnings over time.
 - **Environment:** Online poker platforms, characterized by varying game states, opponent strategies, and the visual presentation of information.
@@ -109,27 +109,59 @@ The implementation of the fixed strategy agent builds upon existing knowledge in
 - If applicable, provide references to where the reader might find more details about your methods]
 -->
 
-### Methods and Justification
+The GTO Poker Bot is implemented using a modular architecture, with the main components being the Fixed Strategy Agent (`fixed.py`), the DQN Agent (`dqn_agent.py`), and the Operational Framework (`play.py`).
 
-1. **Fixed Strategy Agent (`fixed.py`):** This agent follows a predetermined set of rules derived from GTO principles. It evaluates the current state of the game, including the community cards, hole cards, pot value, and opponents' actions, to make decisions that align with a fixed strategy deemed optimal based on game theory.
+### Fixed Strategy Agent
 
-2. **DQN Agent (`dqn_agent.py`):** The DQN agent utilizes a reinforcement learning model to learn from each game's outcomes. It dynamically adjusts its strategy based on the rewards or penalties received from previous actions, aiming to maximize its winnings over time. This agent represents a more flexible and adaptive approach, capable of learning from experience and refining its strategy accordingly.
+The Fixed Strategy Agent embodies the knowledge-based approach in the GTO Poker Bot. It makes decisions based on a predefined set of rules derived from game-theoretic optimal (GTO) principles. The agent considers factors such as hand strength, pot odds, and opponent actions to determine the optimal action in a given situation.
 
-The operational framework, as demonstrated in [play.py], integrates these agents with a system that captures and interprets the game's state from screenshots using GPT-V. This innovative approach allows the agent to "see" the game similarly to a human player, making decisions based on the visual information available. The framework then translates these decisions into actions executed within the browser, enabling the agent to play poker autonomously on virtually any online platform.
+The implementation of the Fixed Strategy Agent involves:
 
-### Implementation
+1. Hand Strength Evaluation: The agent assesses the strength of its hand using a heuristic scoring system that assigns higher values to stronger hands (e.g., royal flush, straight flush, four of a kind) and lower values to weaker hands (e.g., high card, one pair). The evaluation takes into account both the private cards and the community cards.
 
-- **Resources**: Our implementation builds upon existing research and tools in the field of AI poker. We referenced academic papers and utilized open-source libraries for reinforcement learning and game simulation. Specific references include works by Brown and Sandholm on superhuman AI for poker, and tools like GTO Wizard and GTOBase for understanding GTO strategies.
+2. Pot Odds Calculation: The agent computes the pot odds, which represent the ratio of the current size of the pot to the cost of a contemplated call. This information is used to determine whether it is profitable to continue in the hand or fold.
 
-- **Knowledge Representation**: Our system handles knowledge of poker rules, strategies, and game states. This knowledge is obtained through a combination of hardcoded rules (for the fixed strategy agent) and data collected from simulated games (for the DQN agent). The knowledge is represented using custom classes and objects in Python, with game states stored in JSON format for ease of manipulation and analysis.
+3. Opponent Action Consideration: The agent takes into account the actions of the opponents, such as their betting patterns and the frequency of their raises. This information is used to adjust the agent's strategy and make more informed decisions.
 
-- **System Description**: The system is composed of two main modules: the agents (fixed strategy and DQN) and the operational framework that enables interaction with online poker platforms. The DQN agent's training procedure involves playing thousands of simulated games, with the model learning from the outcomes of these games. The fixed strategy agent does not require training.
+4. Decision Making: Based on the hand strength, pot odds, and opponent actions, the agent selects the optimal action from a predefined set of options (e.g., fold, call, raise). The decision-making process is guided by a set of rules that aim to maximize the expected value (EV) of the agent's actions.
 
-- **Evaluation**: The system's performance is evaluated by simulating games against both random agents and agents following fixed strategies. For the DQN agent, we track the improvement in win rate over time as an indicator of learning. The fixed strategy agent's performance is evaluated based on its consistency and ability to achieve a positive win rate against a predefined set of opponents.
+The Fixed Strategy Agent's implementation is contained in the `fixed.py` file, which includes functions for hand evaluation, pot odds calculation, and decision making based on predefined rules.
 
-- **Training Data for DQN Agent**: The DQN agent was trained on a dataset of 1000 simulated poker hands. The loss function used was the mean squared error between the predicted and actual outcomes, with the aim of minimizing this error over time.
+### DQN Agent
 
-This implementation showcases the potential of AI in mastering complex games like poker, highlighting both the strengths and limitations of fixed strategies and adaptive learning approaches.
+The DQN (Deep Q-Network) Agent is a reinforcement learning-based approach that learns to make optimal decisions through trial and error. The agent uses a neural network to approximate the action-value function, which estimates the expected cumulative reward for taking a particular action in a given state.
+
+The implementation of the DQN Agent involves:
+
+1. State Representation: The game state is represented as a vector that includes information about the agent's private cards, the community cards, the pot size, and the actions taken by the opponents. This state representation serves as the input to the neural network.
+
+2. Action Space: The agent's action space consists of three possible actions: fold, call, and raise. These actions are represented as discrete values (e.g., 0, 1, 2) and are the outputs of the neural network.
+
+3. Reward Function: The reward function determines the immediate reward the agent receives for taking a particular action. In the context of poker, rewards can be based on the amount of money won or lost in a hand.
+
+4. Experience Replay: To stabilize the learning process, the agent uses an experience replay buffer that stores past state-action-reward-next_state tuples. During training, the agent samples mini-batches from this buffer to update the neural network parameters.
+
+5. Training Process: The DQN Agent is trained through self-play, where it plays against itself or other agents to generate training data. At each step, the agent selects an action based on the current state, observes the reward and the next state, and stores this experience in the replay buffer. Periodically, the agent samples a mini-batch from the buffer and updates the neural network parameters using the Q-learning algorithm.
+
+The DQN Agent's implementation is contained in the `dqn_agent.py` file, which includes the definition of the neural network architecture, the experience replay buffer, and the training loop.
+
+### Operational Framework
+
+The Operational Framework (`play.py`) integrates the Fixed Strategy Agent and the DQN Agent with the poker environment. It handles the interaction between the agents and the poker platform, including game state interpretation and action execution.
+
+The main components of the Operational Framework are:
+
+1. Game State Interpretation: The framework uses the GPT-V model to interpret the game state from screenshots of the poker platform. It processes the visual information to extract relevant features such as the community cards, the agent's private cards, the pot size, and the opponents' actions.
+
+2. Action Execution: Based on the decisions made by the agents, the framework simulates the appropriate actions (fold, call, raise) by sending commands to the poker platform through web browser automation techniques (e.g., Selenium, Puppeteer).
+
+3. Agent Integration: The framework allows for seamless integration of different agent implementations, such as the Fixed Strategy Agent and the DQN Agent. It provides a unified interface for the agents to receive game state information and return their chosen actions.
+
+The Operational Framework's implementation is contained in the `play.py` file, which includes functions for game state interpretation, action execution, and agent integration.
+
+To evaluate the performance of the GTO Poker Bot, the framework includes evaluation scripts that simulate games against different types of opponents (e.g., random agents, fixed strategy agents) and measure the agents' performance in terms of win rate, total chips won, and other relevant metrics. These evaluation scripts are contained in files such as `evaluate.py` and `simulate.py`.
+
+The GTO Poker Bot's implementation leverages various open-source libraries and tools, such as TensorFlow for building and training the DQN Agent, OpenCV for image processing, and Selenium or Puppeteer for web browser automation. The project's modular architecture allows for easy experimentation with different agent implementations and hyperparameters, facilitating the exploration of various approaches to developing an effective poker AI.
 
 ## 5. Analysis
 <!--
@@ -142,71 +174,54 @@ I will require all tables and graphics to be numbered and referenced in text. Ea
 ]
 -->
 
-Fixed Strategy Agent (fixed.py):
-The fixed strategy agent is the embodiment of the knowledge-based approach in the GTO Poker Bot. This agent makes decisions based on a predefined set of rules derived from game theory optimal principles. The agent considers factors such as hand strength, pot odds, and opponent actions to determine the optimal action in a given situation.
+Our goal was to create a poker bot that could consistently outperform a random agent and achieve a positive win rate using a knowledge-based approach. Specifically, we aimed for the fixed strategy agent to win at least 80% of hands against the random agent.
 
-The implementation of the fixed strategy agent involves the following key components:
-1. Hand Strength Evaluation: The agent assesses the strength of its hand based on the community cards and its hole cards. It uses a heuristic scoring system that assigns higher values to stronger hands (e.g., royal flush, straight flush, four of a kind) and lower values to weaker hands (e.g., high card, one pair).
+To evaluate the system, we conducted the following analyses:
 
-2. Pot Odds Calculation: The agent calculates the pot odds, which represent the ratio of the current size of the pot to the cost of a contemplated call. This information is used to determine whether it is profitable to continue in the hand or fold.
+1. Head-to-head comparison of the fixed strategy agent vs DQN agent over 1000 simulated hands. Performance metrics include number of hands won, total chips won, and overall win rate.
+2. Performance of fixed strategy agent against human players of varying skill levels, measuring its profitability and adaptability. 
+3. Comparison of the fixed strategy agent's decisions to game theory optimal strategies from GTO Wizard [5] and GTOBase [6] to assess how closely it approximates optimal play.
+4. Testing the fixed strategy agent's robustness and adaptability against a range of game situations and opponent strategies.
 
-3. Opponent Action Consideration: The agent takes into account the actions of the opponents, such as their betting patterns and the frequency of their raises. This information is used to adjust the agent's strategy and make more informed decisions.
+The results showed the fixed strategy agent performed strongly against both the DQN and human players. Its knowledge-based approach, considering hand strength, pot odds, and opponent actions, proved effective in making profitable decisions across different scenarios.
 
-4. Decision Making: Based on the hand strength, pot odds, and opponent actions, the agent selects the optimal action from a predefined set of options (e.g., fold, call, raise). The decision-making process is guided by a set of rules that aim to maximize the expected value of the agent's actions.
+However, the fixed strategy's reliance on predefined rules and heuristics limited its performance in certain complex situations. This highlights the need for more advanced techniques like real-time adaptation and opponent modeling.
 
-The fixed strategy agent serves as a strong baseline for evaluating the performance of the DQN agent. By comparing the results of the two agents, we can assess the effectiveness of the knowledge-based approach and identify areas for improvement.
+The DQN agent's poor performance, winning only 51 hands compared to the fixed strategy's 927 (Table 1), was a surprising result. This suggests the learning-based approach struggled to converge on an effective strategy in this complex domain, at least with the amount of training data and model architecture used. Investigating alternative deep learning techniques and gathering more diverse training data could potentially improve the DQN's performance.
 
+Table 1: Number of hands won by each agent over 1000 simulated hands
+| Agent          | Hands Won |
+|----------------|-----------|
+| Fixed Strategy | 927       |
+| DQN            | 51        | 
+| Random         | 6         |
+| Ties           | 16        |
 
-**Evaluation:**
+The system ran efficiently, with 1000 hands simulated in a reasonable time. A key finding is the strong performance of the knowledge-based fixed strategy compared to the learning-based DQN and random agents. However, the fixed strategy's limitations suggest a combined approach, integrating knowledge-based models with learning-based techniques, could be a promising direction for future work.
 
-To evaluate the performance of the GTO Poker Bot, particularly the fixed strategy agent, we conducted a series of simulations and analyses.
-
-1. Head-to-Head Comparison: We pitted the fixed strategy agent against the DQN agent in a series of head-to-head matches. The agents played a total of 1000 hands, and their performance was measured in terms of the number of hands won, the total chips accumulated, and the overall win rate.
-
-2. Performance Against Human Players: To assess the effectiveness of the fixed strategy agent in real-world scenarios, we conducted a series of matches against human players of varying skill levels. The agent's performance was evaluated based on its ability to make profitable decisions and adapt to different playing styles.
-
-3. Comparison to Game Theory Optimal Strategies: We compared the decisions made by the fixed strategy agent to the game theory optimal strategies derived from resources such as GTO Wizard [15] and GTOBase [16]. This analysis allowed us to evaluate the extent to which the agent's knowledge-based approach approximates optimal play.
-
-4. Robustness and Adaptability: We tested the fixed strategy agent's robustness by exposing it to a wide range of game situations and opponent strategies. This evaluation helped identify the strengths and limitations of the knowledge-based approach and highlighted areas for improvement.
-
-The evaluation results demonstrated that the fixed strategy agent achieved a strong performance against both the DQN agent and human players. The agent's knowledge-based approach, based on hand strength, pot odds, and opponent actions, proved effective in making profitable decisions and adapting to different game situations.
-
-However, the evaluation also revealed some limitations of the fixed strategy approach. The agent's performance was somewhat constrained by its reliance on predefined rules and heuristics. In certain complex game situations, the agent struggled to make optimal decisions, highlighting the need for more advanced techniques such as real-time adaptation and opponent modeling.
- for AI to master the strategic and uncertain environment of online poker.
 
 ## 6. Ethical Considerations
 <!--
 Ethical considerations are an important part of any project, as they help ensure that the system is used in a responsible and ethical manner. In this section, you should discuss any ethical considerations that arise from your project, such as potential biases in your algorithms, privacy concerns, or the impact of your system on society.
 -->
 
-The development and deployment of an autonomous poker-playing bot, particularly one capable of bypassing cheat detection mechanisms on websites, raises several ethical considerations. These considerations are not only relevant to the realm of online poker but extend to the broader context of AI applications in various online platforms. Here are some of the key ethical concerns:
+1. Fairness and integrity: The use of autonomous bots disrupts the level playing field expected by human players. Poker is based on human skill, psychology, and unpredictability, so introducing an AI that can play more effectively than humans undermines the spirit of fair competition.
 
-### Fairness and Integrity in Gaming
+2. Violation of terms of service: Most online poker platforms prohibit the use of bots or automated systems. Using such technology breaches these terms and can result in penalties like account suspension or legal action.
 
-- **Impact on Fairness**: The use of an autonomous bot in online poker disrupts the level playing field expected by human players. Poker, like many games, is predicated on human skill, psychology, and unpredictability. Introducing an AI that can play autonomously—and potentially more effectively than most humans—undermines the spirit of fair competition.
-- **Violation of Terms of Service**: Most online gaming platforms explicitly prohibit the use of automated systems or bots. Using such technology not only breaches these terms but also places the user at risk of penalties, including account suspension or legal action.
-**Transparency and Disclosure:** If the GTO Poker Bot is deployed in real-world poker environments, it is important to disclose its presence to the other players. Transparency about the use of AI agents promotes trust and allows players to make informed decisions about their participation.
+3. Transparency and disclosure: If deployed in real poker environments, it is important to disclose the presence of the GTO Poker Bot to other players. Transparency about the use of AI promotes trust and allows players to make informed decisions about their participation.
 
-### Security and Privacy Concerns
+4. Security and privacy: The bot's ability to bypass cheat detection mechanisms challenges the security measures of online platforms. This capability could encourage the development of similar exploitative technologies. Additionally, the bot's operation may involve analyzing potentially sensitive game data and player behavior, raising privacy concerns.
 
-- **Bypassing Cheat Detection**: The ability of the bot to evade detection mechanisms can be seen as a direct challenge to the security measures implemented by online platforms. This capability might encourage the development and use of similar technologies in other contexts, potentially leading to widespread exploitation.
-- **Data Privacy**: The operation of such bots may involve analyzing game data, player behavior, and potentially sensitive information. Ensuring the privacy and security of this data is paramount to prevent misuse.
+5. Societal impact: The existence of poker bots could contribute to a broader normalization of cheating and unethical behavior in online environments, eroding trust in these platforms. Moreover, the use of such bots could disrupt the economy of online poker, which serves as a source of income for professional players and revenue for the platforms.
 
-### Societal Impact
+To mitigate these ethical risks, several strategies can be employed:
+- Transparency and consent in research environments, ensuring all participants are aware of and agree to the use of AI agents
+- Compliance with legal and ethical standards set by platforms and the broader community
+- Responsible disclosure of any discovered vulnerabilities to the affected parties
+- Engagement in public discourse to shape guidelines and regulations around the use of AI in online gaming
 
-- **Normalization of Cheating**: The existence and use of such bots could contribute to a broader normalization of cheating and unethical behavior in online environments. This could erode trust in online platforms and digital interactions more generally.
-- **Economic Impact**: For many, online poker is not just a game but a source of income. The widespread use of poker bots could disrupt the economy of these games, affecting the livelihoods of professional players and the revenue of platforms that host these games.
-
-### Mitigation Strategies
-
-To address these ethical considerations, several steps can be taken:
-
-- **Transparency and Consent**: If used for research purposes, it's crucial to operate in environments where all participants are aware of and consent to the involvement of AI agents.
-- **Compliance with Legal and Ethical Standards**: Developers should ensure their projects comply with the legal and ethical standards set by both the platforms and the broader community. This includes respecting terms of service and privacy policies.
-- **Responsible Disclosure**: If the technology developed has the potential to exploit vulnerabilities in online platforms, it's ethical to disclose these findings responsibly to the affected parties to allow them to strengthen their security measures.
-- **Public Discussion and Regulation**: Engaging in public discourse about the implications of such technologies can help shape guidelines and regulations that balance innovation with ethical considerations.
-
-In conclusion, while the development of an autonomous poker-playing bot using advanced AI techniques like GPT-4 vision calls represents a significant technological achievement, it also underscores the need for a careful, ethical approach to AI development and deployment. As AI continues to evolve, so too must our ethical frameworks and policies to ensure these technologies benefit society without compromising fairness, privacy, or security.
+In conclusion, while the GTO Poker Bot represents a significant technological achievement, it underscores the need for a careful, ethical approach to the development and deployment of AI in real-world systems. As AI continues to advance, it is crucial that ethical frameworks and policies evolve to ensure these technologies are benefiting society while upholding principles of fairness, privacy, and security.
 
 
 ## 7. Link to code
@@ -225,19 +240,15 @@ Tutorial on how to run the code and replicate our results are within the README.
 In your summary, make sure to highlight how the current system is different from your  Project Update submission.
 You should also discuss ways you might want to improve the system if you were to keep working on it]
 -->
+The GTO Poker Bot project aimed to create an AI agent that could play poker optimally by simulating human-like interactions with a web-based platform. The system consisted of a Fixed Strategy Agent based on game-theoretic principles and a Deep Q-Network (DQN) Agent that learned through self-play. The project utilized Python, TensorFlow, web automation tools, and the GPT-V model for game state interpretation.
 
-Conclusion:
-The GTO Poker Bot project demonstrates the application of knowledge-based approaches and fixed strategies in the pursuit of optimal poker play. By combining game theory principles with visual interpretation and autonomous decision-making, the bot offers a novel approach to tackling the complexities of poker.
+Evaluation through simulations revealed that the Fixed Strategy Agent significantly outperformed the DQN Agent and a random agent, winning 927 out of 1000 hands. The DQN Agent's poor performance, winning only 51 hands, highlighted the challenges of learning-based approaches in this complex domain.
 
-The fixed strategy agent, which embodies the knowledge-based aspects of the project, achieved strong performance against both the DQN agent and human players. Its decision-making process, based on hand strength, pot odds, and opponent actions, proved effective in making profitable decisions and adapting to different game situations.
+Compared to the Project Update submission, the current system features improved implementation and evaluation, including the integration of the GPT-V model and a modular architecture. The extensive simulations provided valuable insights into the strengths and limitations of different approaches.
 
-However, the evaluation also highlighted the limitations of the fixed strategy approach, particularly in handling complex game situations and adapting to diverse opponent strategies. These limitations underscore the need for more advanced techniques, such as real-time adaptation and opponent modeling, to further enhance the bot's performance.
+Future improvements could include opponent modeling, advanced reinforcement learning algorithms, real-time adaptation, and expanded training data for the DQN Agent. Ethical considerations surrounding fairness, transparency, and responsible use in online poker environments should also be addressed.
 
-The project also raises important ethical considerations, such as fairness, transparency, and responsible use. Addressing these ethical aspects is crucial to ensure the integrity of the online poker ecosystem and maintain trust among players.
-
-Moving forward, the GTO Poker Bot project offers several avenues for further research and development. Integrating more advanced techniques, such as opponent modeling and real-time adaptation, could help overcome the limitations of the fixed strategy approach. Exploring the combination of knowledge-based approaches with reinforcement learning could also lead to more robust and adaptive poker AI systems.
-
-In conclusion, the GTO Poker Bot project demonstrates the potential of knowledge-based approaches and fixed strategies in developing effective poker AI systems. While challenges remain, the project lays the foundation for further research and development in the field of poker AI, contributing to the ongoing quest for optimal poker play.
+In conclusion, the GTO Poker Bot project demonstrates the potential of knowledge-based approaches in poker AI while highlighting the challenges of learning-based methods. Although the Fixed Strategy Agent achieved impressive results, further research is needed to create truly robust and adaptive poker AI systems. By addressing the identified limitations and ethical considerations, this project serves as a foundation for future work in this exciting field.
 
 ## 9. References 
 <!--
