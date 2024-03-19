@@ -75,6 +75,11 @@ python play.py --random
 -  ``agent_dqn.py``: a deep q agent
 -  ``fixed.py``: a fixed model
 
+You can test the performance of the 3 different agents playing each other by running:
+```
+python evaluate.py
+```
+
 ### Repository Structure
 ---
 
@@ -105,7 +110,9 @@ python play.py --random
 * [random_agent.py](./random_agent.py)
 * [requirements.txt](./requirements.txt)
 
-###How it works:
+### How it works:
+
+GPT-V is used to extract the game state from the screenshots. The extracted information is then used to make decisions based on the current state of the game. Here is an example of the screenshot sent to GPT-V:
 
 ![Bot](media/ocr_image_output.png)
 
@@ -115,8 +122,12 @@ Read more in our technical report.
 
 ![Results](media/evaluator.png)
 
-Results after 1000 hands:
+**Results after 1000 hands:**
+
 DQN Agent Wins: 51
+
 Fixed Model Wins: 927
+
 Random Model Wins: 6
+
 Ties: 16
