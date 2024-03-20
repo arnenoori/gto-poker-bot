@@ -119,7 +119,7 @@ While these state-of-the-art systems have achieved remarkable success, they rely
 
 The fixed strategy agent draws inspiration from the concept of Nash equilibrium, a central concept in game theory. In a two-player zero-sum game like heads-up poker, a Nash equilibrium is a pair of strategies where neither player can improve their expected outcome by unilaterally changing their strategy.[8] The fixed strategy agent aims to approximate a Nash equilibrium strategy by making decisions based on hand strength, pot odds, and opponent actions.
 
-To implement the fixed strategy agent, we build upon existing knowledge in the field of poker game theory. Resources such as GTO Wizard[10] and GTOBase[11] provide valuable insights into game theory optimal strategies for various poker situations. By incorporating this knowledge into the fixed strategy agent, the GTO Poker Bot explores the effectiveness of a knowledge-based approach in achieving strong poker performance.
+To implement the fixed strategy agent, we build upon existing knowledge in the field of poker game theory. Resources such as GTO Wizard[9] and GTOBase[10] provide valuable insights into game theory optimal strategies for various poker situations. By incorporating this knowledge into the fixed strategy agent, the GTO Poker Bot explores the effectiveness of a knowledge-based approach in achieving strong poker performance.
 
 The inclusion of the fixed strategy agent not only provides a robust benchmark for evaluating the DQN agent's performance but also allows for a comparative analysis of knowledge-based and learning-based approaches in the context of poker AI. By examining the strengths and limitations of each approach, we aim to contribute to the ongoing discourse on the most effective methods for tackling imperfect information games like poker.
 
@@ -208,7 +208,7 @@ To evaluate the system, we conducted the following analyses:
 
 1. Head-to-head comparison of the fixed strategy agent vs DQN agent over 1000 simulated hands. Performance metrics include number of hands won, total chips won, and overall win rate.
 2. Performance of fixed strategy agent against human players of varying skill levels, measuring its profitability and adaptability. 
-3. Comparison of the fixed strategy agent's decisions to game theory optimal strategies from GTO Wizard [10] and GTOBase [11] to assess how closely it approximates optimal play.
+3. Comparison of the fixed strategy agent's decisions to game theory optimal strategies from GTO Wizard [9] and GTOBase [10] to assess how closely it approximates optimal play.
 4. Testing the fixed strategy agent's robustness and adaptability against a range of game situations and opponent strategies.
 
 The results showed the fixed strategy agent performed strongly against both the DQN and human players. Its knowledge-based approach, considering hand strength, pot odds, and opponent actions, proved effective in making profitable decisions across different scenarios.
@@ -278,16 +278,13 @@ Note that, for this assignment, all references listed here should be referenced 
 [1] Deng, Jia, et al. "Imagenet: A large-scale hierarchical image database." 2009 IEEE conference on computer vision and pattern recognition. Ieee, 2009.]
 -->
 
-Need to convert this to proper format:
-
-[1] https://github.com/OthersideAI/self-operating-computer
-[2] https://upswingpoker.com/poker-rules/texas-holdem-rules/
-[3] https://www.wired.com/2017/02/libratus/
-[4] https://www.sciencedaily.com/releases/2019/07/190711141343.htm
+[1] OthersideAI. “OthersideAI/Self-Operating-Computer: A Framework to Enable Multimodal Models to Operate a Computer.” GitHub, github.com/OthersideAI/self-operating-computer. Accessed 19 Mar. 2024. 
+[2] “How to Play Texas Hold’em: Poker Rules.” Upswing Poker, 20 Oct. 2023, upswingpoker.com/poker-rules/texas-holdem-rules/. 
+[3] Metz, Cade. “Inside the Poker AI That Out-Bluffed the Best Humans.” Wired, Conde Nast, 1 Feb. 2017, www.wired.com/2017/02/libratus/. 
+[4] “Ai Beats Professionals in Six-Player Poker.” ScienceDaily, ScienceDaily, 11 July 2019, www.sciencedaily.com/releases/2019/07/190711141343.htm. 
 [5] https://arxiv.org/pdf/2111.07631.pdf
-[6] https://link.springer.com/content/pdf/10.1007/s11633-022-1384-6.pdf
-[7] https://www.technologyreview.com/innovator/noam-brown/
-[8] https://www.wired.com/story/poker-playing-robot-goes-to-pentagon/
-[9] https://www.cs.cmu.edu/~sandholm/cv.pdf
-[10] https://blog.gtowizard.com/why-doesnt-my-solution-match-gto-wizard/
-[11] https://pokerenergy.net/edu/item/GBase-review
+[6] Yin, Qiyue, et al. AI in Human-Computer Gaming: Techniques, Challenges and Opportunities, arxiv.org/pdf/2111.07631.pdf. Accessed 20 Mar. 2024. 
+[7] “Noam Brown.” MIT Technology Review, www.technologyreview.com/innovator/noam-brown/. Accessed 19 Mar. 2024. 
+[8] Simonite, Tom. “A Poker-Playing Robot Goes to Work for the Pentagon.” Wired, Conde Nast, 16 Jan. 2019, www.wired.com/story/poker-playing-robot-goes-to-pentagon/. 
+[9] Tombos21, and GTO Wizard. “Why Doesn’t My Solution Match GTO Wizard?” GTO Wizard, 12 July 2023, blog.gtowizard.com/why-doesnt-my-solution-match-gto-wizard/. 
+[10] “GTOBase Is the Fastest GTO Poker App.” Pokerenergy, pokerenergy.net/edu/item/GBase-review. Accessed 19 Mar. 2024. 
