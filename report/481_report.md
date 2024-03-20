@@ -138,23 +138,25 @@ The inclusion of the fixed strategy agent not only provides a robust benchmark f
 -->
 
 The GTO Poker Bot is implemented using a modular architecture, with the main components being the Fixed Strategy Agent (`fixed.py`), the DQN Agent (`dqn_agent.py`), and the Operational Framework (`play.py`).
+Here is the text with spelling and grammar corrections, without any other changes:
 
 ### Fixed Strategy Agent
 
-The Fixed Strategy Agent embodies the knowledge-based approach in the GTO Poker Bot. It makes decisions based on a predefined set of rules derived from game-theoretic optimal (GTO) principles. The agent considers factors such as hand strength, pot odds, and opponent actions to determine the optimal action in a given situation.
+The Fixed Strategy Agent incorporates principles from GTO poker in its decision-making process. It makes decisions based on a predefined set of rules that aim to maximize the expected value (EV) of the agent's actions, considering factors such as hand strength, pot odds, and opponent actions, which are reflected heuristics considered in GTO poker charts.
 
-The implementation of the Fixed Strategy Agent involves:
+![Hand Strength Table](./images/gto.png)
 
-1. **Hand Strength Evaluation**: The agent assesses the strength of its hand using a heuristic scoring system that assigns higher values to stronger hands (e.g., royal flush, straight flush, four of a kind) and lower values to weaker hands (e.g., high card, one pair). The evaluation takes into account both the private cards and the community cards.
+The implementation of the Fixed Strategy Agent is inspired by GTO poker principles in the following ways:
 
-2. **Pot Odds Calculation**: The agent computes the pot odds, which represent the ratio of the current size of the pot to the cost of a contemplated call. This information is used to determine whether it is profitable to continue in the hand or fold.
+1. **Hand Strength Evaluation**: The agent assesses the strength of its hand using a scoring system that assigns higher win probabilities to stronger hands and lower win probabilities to weaker hands. This approach aligns with GTO principles, which recognize that hands with higher card ranks and stronger combinations (e.g., pairs, same-suit cards, potential straight connectors) have a higher likelihood of winning.
 
-3. **Opponent Action Consideration**: The agent takes into account the actions of the opponents, such as their betting patterns and the frequency of their raises. This information is used to adjust the agent's strategy and make more informed decisions.
+2. **Pot Odds Consideration**: The agent incorporates pot odds into its decision-making process, calculating the ratio of the current size of the pot to the cost of a contemplated call. GTO principles dictate that a player should only continue in a hand if the expected value of winning the pot exceeds the cost of calling; thus, by considering pot odds, the agent can make decisions that align with the profitability of calling a given action. This also allows the poker bot to "scale" up its willingness to call other players based on how much is in the pot. This means that if the agent is already somewhat invested in the pot from previous actions, it will be less likely to fold from relatively small bets.
 
-4. **Decision Making**: Based on the hand strength, pot odds, and opponent actions, the agent selects the optimal action from a predefined set of options (e.g., fold, call, raise). The decision-making process is guided by a set of rules that aim to maximize the expected value (EV) of the agent's actions.
+3. **Round Consideration**: The agent adapts its playing strategy based on the current round of the game. In the pre-flop round, when no community cards are available, the agent is more likely to "call" the starting bet to see the flop, as the hand's potential is still uncertain. However, as more community cards are revealed in subsequent rounds, the agent becomes more selective in calling bets, recognizing that the increased information narrows down the possible hand combinations for itself and increases the probability of other players getting a favorable hand.
 
-The Fixed Strategy Agent's implementation is contained in the `fixed.py` file, which includes functions for hand evaluation, pot odds calculation, and decision making based on predefined rules.
+4. **Highest Active Bet Consideration**: Lastly, the agent takes into account the highest bet made by opponents in relation to the pot odds when making its decision. It compares the bet size to the current pot size to determine the required confidence level (`win_probability`) to justify calling the bet. If the bet is relatively small compared to the pot size, the agent may call with a wider range of hands, but if the bet is large relative to the pot size, the agent will require a stronger hand to justify calling, as the risk is higher compared to the potential reward.
 
+By leveraging these GTO principles, we intend for the agent to make optimal decisions that maximize its expected value and align with GTO poker.
 ### DQN Agent
 
 The DQN (Deep Q-Network) Agent is a reinforcement learning-based approach that learns to make optimal decisions through trial and error. The agent uses a neural network to approximate the action-value function, which estimates the expected cumulative reward for taking a particular action in a given state.
