@@ -144,7 +144,7 @@ Here is the text with spelling and grammar corrections, without any other change
 
 The Fixed Strategy Agent incorporates principles from GTO poker in its decision-making process. It makes decisions based on a predefined set of rules that aim to maximize the expected value (EV) of the agent's actions, considering factors such as hand strength, pot odds, and opponent actions, which are reflected heuristics considered in GTO poker charts.
 
-![Hand Strength Table](./images/gto.png)
+![Hand Strength Table](../media/gto.png){width=40%}
 
 The implementation of the Fixed Strategy Agent is inspired by GTO poker principles in the following ways:
 
@@ -157,6 +157,7 @@ The implementation of the Fixed Strategy Agent is inspired by GTO poker principl
 4. **Highest Active Bet Consideration**: Lastly, the agent takes into account the highest bet made by opponents in relation to the pot odds when making its decision. It compares the bet size to the current pot size to determine the required confidence level (`win_probability`) to justify calling the bet. If the bet is relatively small compared to the pot size, the agent may call with a wider range of hands, but if the bet is large relative to the pot size, the agent will require a stronger hand to justify calling, as the risk is higher compared to the potential reward.
 
 By leveraging these GTO principles, we intend for the agent to make optimal decisions that maximize its expected value and align with GTO poker.
+
 ### DQN Agent
 
 The DQN (Deep Q-Network) Agent is a reinforcement learning-based approach that learns to make optimal decisions through trial and error. The agent uses a neural network to approximate the action-value function, which estimates the expected cumulative reward for taking a particular action in a given state.
@@ -221,7 +222,7 @@ The DQN agent's poor performance, winning only 51 hands compared to the fixed st
 
 Table 1: Number of hands won by each agent over 1000 simulated hands
 
-![Table 1](../media/evaluator.png)
+![Table 1](../media/evaluator.png){width=75%}
 
 The system ran efficiently, with 1000 hands simulated in a reasonable time. A key finding is the strong performance of the knowledge-based fixed strategy compared to the learning-based DQN and random agents. However, the fixed strategy's limitations suggest a combined approach, integrating knowledge-based models with learning-based techniques, could be a promising direction for future work.
 
@@ -281,12 +282,21 @@ Note that, for this assignment, all references listed here should be referenced 
 -->
 
 [1] OthersideAI. “OthersideAI/Self-Operating-Computer: A Framework to Enable Multimodal Models to Operate a Computer.” GitHub, github.com/OthersideAI/self-operating-computer. Accessed 19 Mar. 2024. 
+
 [2] “How to Play Texas Hold’em: Poker Rules.” Upswing Poker, 20 Oct. 2023, upswingpoker.com/poker-rules/texas-holdem-rules/. 
+
 [3] Metz, Cade. “Inside the Poker AI That Out-Bluffed the Best Humans.” Wired, Conde Nast, 1 Feb. 2017, www.wired.com/2017/02/libratus/. 
+
 [4] “Ai Beats Professionals in Six-Player Poker.” ScienceDaily, ScienceDaily, 11 July 2019, www.sciencedaily.com/releases/2019/07/190711141343.htm. 
+
 [5] https://arxiv.org/pdf/2111.07631.pdf
+
 [6] Yin, Qiyue, et al. AI in Human-Computer Gaming: Techniques, Challenges and Opportunities, arxiv.org/pdf/2111.07631.pdf. Accessed 20 Mar. 2024. 
+
 [7] “Noam Brown.” MIT Technology Review, www.technologyreview.com/innovator/noam-brown/. Accessed 19 Mar. 2024. 
+
 [8] Simonite, Tom. “A Poker-Playing Robot Goes to Work for the Pentagon.” Wired, Conde Nast, 16 Jan. 2019, www.wired.com/story/poker-playing-robot-goes-to-pentagon/. 
+
 [9] Tombos21, and GTO Wizard. “Why Doesn’t My Solution Match GTO Wizard?” GTO Wizard, 12 July 2023, blog.gtowizard.com/why-doesnt-my-solution-match-gto-wizard/. 
+
 [10] “GTOBase Is the Fastest GTO Poker App.” Pokerenergy, pokerenergy.net/edu/item/GBase-review. Accessed 19 Mar. 2024. 
