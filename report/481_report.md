@@ -72,14 +72,14 @@ The project leverages TensorFlow for implementing the DQN agent and GPT-V for in
 
 Poker, specifically the no-limit Texas Hold'em variant, involves players making the best 5-card hand from two private hole cards and five community cards. The game consists of four main betting rounds:
 
-1. **Preflop**:  After players receive their two hole cards, betting action starts with the player to the left of the big blind and continues clockwise. Players can call the big blind amount, raise, or fold.[13]
-2. **Flop**: After the first three community cards are dealt, another round of betting takes place, starting with the player to the left of the button. Players can check if no bet has been made, or bet if they wish to.[13]
-3. **Turn**: The fourth community card is dealt, followed by a betting round.[13]
-4. **River**: The final community card is dealt, with a final round of betting. If more than one player remains after this, a showdown occurs where the player with the best 5-card hand wins the pot.[13]
+1. **Preflop**:  After players receive their two hole cards, betting action starts with the player to the left of the big blind and continues clockwise. Players can call the big blind amount, raise, or fold.
+2. **Flop**: After the first three community cards are dealt, another round of betting takes place, starting with the player to the left of the button. Players can check if no bet has been made, or bet if they wish to.
+3. **Turn**: The fourth community card is dealt, followed by a betting round.
+4. **River**: The final community card is dealt, with a final round of betting. If more than one player remains after this, a showdown occurs where the player with the best 5-card hand wins the pot.
 
 In no-limit Texas Hold'em, players can bet any amount up to all of their chips at any time, allowing for more aggressive play and bigger pots compared to limit hold'em.[13] The minimum bet size is usually the amount of the big blind, and the minimum raise must be at least the size of the previous bet or raise.[13]
 
-A dealer button rotates clockwise after each hand to determine the positions of the small blind, big blind, and order of betting. The small blind and big blind are forced bets made before any cards are dealt, with the small blind typically being half the amount of the big blind.[9][13]
+A dealer button rotates clockwise after each hand to determine the positions of the small blind, big blind, and order of betting. The small blind and big blind are forced bets made before any cards are dealt, with the small blind typically being half the amount of the big blind.[13]
 
 Standard poker hand rankings are used, from best to worst: royal flush, straight flush, four of a kind, full house, flush, straight, three of a kind, two pair, one pair, and high card. If two players have the same ranked hand, the rank of the next card(s) in their hand determines the winner. Suits are not used to break ties.
 
@@ -103,23 +103,23 @@ In recent years, several noteworthy poker AI systems have been developed, each t
 
 ### Libratus (2017)
 
-Libratus, created at Carnegie Mellon University in 2017, employs counterfactual regret minimization (CFR) to compute a blueprint strategy through self-play and refines it in real-time using nested safe subgame solving.[2][5] Libratus did not use neural networks, instead relying mainly on reinforcement learning through CFR. It learned poker from scratch by playing trillions of hands against itself over several months.[1] This approach allowed Libratus to become the first AI to defeat top human professionals in heads-up no-limit Texas Hold'em poker.[2]
+Libratus, created at Carnegie Mellon University in 2017, employs counterfactual regret minimization (CFR) to compute a blueprint strategy through self-play and refines it in real-time using nested safe subgame solving.[3][6] Libratus did not use neural networks, instead relying mainly on reinforcement learning through CFR. It learned poker from scratch by playing trillions of hands against itself over several months.[1] This approach allowed Libratus to become the first AI to defeat top human professionals in heads-up no-limit Texas Hold'em poker.[3]
 
 ### Pluribus (2019)
 
-Building upon Libratus' success, Pluribus, developed by researchers from Facebook AI and Carnegie Mellon in 2019, became the first AI to beat elite human professionals at six-player no-limit Texas Hold'em.[3][5] Pluribus extends CFR to handle multiplayer settings using Monte Carlo CFR for improved scalability and a depth-limited search for a finer-grained abstraction of the game tree.[3][5] Like Libratus, Pluribus also did not use neural networks and learned poker solely through self-play, with no human data or expert knowledge.[3][5] Notably, Pluribus employs innovative mixed strategies and donk betting that differ from typical human play.[3][6]
+Building upon Libratus' success, Pluribus, developed by researchers from Facebook AI and Carnegie Mellon in 2019, became the first AI to beat elite human professionals at six-player no-limit Texas Hold'em.[4][6] Pluribus extends CFR to handle multiplayer settings using Monte Carlo CFR for improved scalability and a depth-limited search for a finer-grained abstraction of the game tree.[4][6] Like Libratus, Pluribus also did not use neural networks and learned poker solely through self-play, with no human data or expert knowledge.[4][6] Notably, Pluribus employs innovative mixed strategies and donk betting that differ from typical human play.[4][7]
 
 ### DeepStack (2017)
 
-DeepStack, created by researchers from the University of Alberta, Czech Technical University, and Charles University in 2017, takes a different approach by leveraging deep learning and decomposition to reason about game situations.[4][5][7] Unlike Libratus and Pluribus, DeepStack relied heavily on deep neural networks to make decisions. The networks were trained on a massive amount of random poker situations.[4] It uses heuristic search aided by deep neural networks for intuition, continual re-solving to update strategies based on the current situation, and depth-limited search with neural networks to estimate values.[4][5]
+DeepStack, created by researchers from the University of Alberta, Czech Technical University, and Charles University in 2017, takes a different approach by leveraging deep learning and decomposition to reason about game situations.[5][6][8] Unlike Libratus and Pluribus, DeepStack relied heavily on deep neural networks to make decisions. The networks were trained on a massive amount of random poker situations.[4] It uses heuristic search aided by deep neural networks for intuition, continual re-solving to update strategies based on the current situation, and depth-limited search with neural networks to estimate values.[5][6]
 
 ### Our Approach
 
 While these state-of-the-art systems have achieved remarkable success, they rely on sophisticated techniques that may be challenging to implement and computationally expensive. In contrast, our GTO Poker Bot explores the potential of a more accessible knowledge-based approach, particularly through the use of a fixed strategy agent that embodies the principles of game theory optimal (GTO) play. This agent serves as a strong baseline for evaluating the performance of the learning-based DQN agent.
 
-The fixed strategy agent draws inspiration from the concept of Nash equilibrium, a central concept in game theory. In a two-player zero-sum game like heads-up poker, a Nash equilibrium is a pair of strategies where neither player can improve their expected outcome by unilaterally changing their strategy.[14] The fixed strategy agent aims to approximate a Nash equilibrium strategy by making decisions based on hand strength, pot odds, and opponent actions.
+The fixed strategy agent draws inspiration from the concept of Nash equilibrium, a central concept in game theory. In a two-player zero-sum game like heads-up poker, a Nash equilibrium is a pair of strategies where neither player can improve their expected outcome by unilaterally changing their strategy.[8] The fixed strategy agent aims to approximate a Nash equilibrium strategy by making decisions based on hand strength, pot odds, and opponent actions.
 
-To implement the fixed strategy agent, we build upon existing knowledge in the field of poker game theory. Resources such as GTO Wizard[15] and GTOBase[16] provide valuable insights into game theory optimal strategies for various poker situations. By incorporating this knowledge into the fixed strategy agent, the GTO Poker Bot explores the effectiveness of a knowledge-based approach in achieving strong poker performance.
+To implement the fixed strategy agent, we build upon existing knowledge in the field of poker game theory. Resources such as GTO Wizard[10] and GTOBase[11] provide valuable insights into game theory optimal strategies for various poker situations. By incorporating this knowledge into the fixed strategy agent, the GTO Poker Bot explores the effectiveness of a knowledge-based approach in achieving strong poker performance.
 
 The inclusion of the fixed strategy agent not only provides a robust benchmark for evaluating the DQN agent's performance but also allows for a comparative analysis of knowledge-based and learning-based approaches in the context of poker AI. By examining the strengths and limitations of each approach, we aim to contribute to the ongoing discourse on the most effective methods for tackling imperfect information games like poker.
 
@@ -145,13 +145,13 @@ The Fixed Strategy Agent embodies the knowledge-based approach in the GTO Poker 
 
 The implementation of the Fixed Strategy Agent involves:
 
-1. Hand Strength Evaluation: The agent assesses the strength of its hand using a heuristic scoring system that assigns higher values to stronger hands (e.g., royal flush, straight flush, four of a kind) and lower values to weaker hands (e.g., high card, one pair). The evaluation takes into account both the private cards and the community cards.
+1. **Hand Strength Evaluation**: The agent assesses the strength of its hand using a heuristic scoring system that assigns higher values to stronger hands (e.g., royal flush, straight flush, four of a kind) and lower values to weaker hands (e.g., high card, one pair). The evaluation takes into account both the private cards and the community cards.
 
-2. Pot Odds Calculation: The agent computes the pot odds, which represent the ratio of the current size of the pot to the cost of a contemplated call. This information is used to determine whether it is profitable to continue in the hand or fold.
+2. **Pot Odds Calculation**: The agent computes the pot odds, which represent the ratio of the current size of the pot to the cost of a contemplated call. This information is used to determine whether it is profitable to continue in the hand or fold.
 
-3. Opponent Action Consideration: The agent takes into account the actions of the opponents, such as their betting patterns and the frequency of their raises. This information is used to adjust the agent's strategy and make more informed decisions.
+3. **Opponent Action Consideration**: The agent takes into account the actions of the opponents, such as their betting patterns and the frequency of their raises. This information is used to adjust the agent's strategy and make more informed decisions.
 
-4. Decision Making: Based on the hand strength, pot odds, and opponent actions, the agent selects the optimal action from a predefined set of options (e.g., fold, call, raise). The decision-making process is guided by a set of rules that aim to maximize the expected value (EV) of the agent's actions.
+4. **Decision Making**: Based on the hand strength, pot odds, and opponent actions, the agent selects the optimal action from a predefined set of options (e.g., fold, call, raise). The decision-making process is guided by a set of rules that aim to maximize the expected value (EV) of the agent's actions.
 
 The Fixed Strategy Agent's implementation is contained in the `fixed.py` file, which includes functions for hand evaluation, pot odds calculation, and decision making based on predefined rules.
 
@@ -161,15 +161,15 @@ The DQN (Deep Q-Network) Agent is a reinforcement learning-based approach that l
 
 The implementation of the DQN Agent involves:
 
-1. State Representation: The game state is represented as a vector that includes information about the agent's private cards, the community cards, the pot size, and the actions taken by the opponents. This state representation serves as the input to the neural network.
+1. **State Representation**: The game state is represented as a vector that includes information about the agent's private cards, the community cards, the pot size, and the actions taken by the opponents. This state representation serves as the input to the neural network.
 
-2. Action Space: The agent's action space consists of three possible actions: fold, call, and raise. These actions are represented as discrete values (e.g., 0, 1, 2) and are the outputs of the neural network.
+2. **Action Space**: The agent's action space consists of three possible actions: fold, call, and raise. These actions are represented as discrete values (e.g., 0, 1, 2) and are the outputs of the neural network.
 
-3. Reward Function: The reward function determines the immediate reward the agent receives for taking a particular action. In the context of poker, rewards can be based on the amount of money won or lost in a hand.
+3. **Reward Function**: The reward function determines the immediate reward the agent receives for taking a particular action. In the context of poker, rewards can be based on the amount of money won or lost in a hand.
 
-4. Experience Replay: To stabilize the learning process, the agent uses an experience replay buffer that stores past state-action-reward-next_state tuples. During training, the agent samples mini-batches from this buffer to update the neural network parameters.
+4. **Experience Replay**: To stabilize the learning process, the agent uses an experience replay buffer that stores past state-action-reward-next_state tuples. During training, the agent samples mini-batches from this buffer to update the neural network parameters.
 
-5. Training Process: The DQN Agent is trained through self-play, where it plays against itself or other agents to generate training data. At each step, the agent selects an action based on the current state, observes the reward and the next state, and stores this experience in the replay buffer. Periodically, the agent samples a mini-batch from the buffer and updates the neural network parameters using the Q-learning algorithm.
+5. **Training Process**: The DQN Agent is trained through self-play, where it plays against itself or other agents to generate training data. At each step, the agent selects an action based on the current state, observes the reward and the next state, and stores this experience in the replay buffer. Periodically, the agent samples a mini-batch from the buffer and updates the neural network parameters using the Q-learning algorithm.
 
 The DQN Agent's implementation is contained in the `dqn_agent.py` file, which includes the definition of the neural network architecture, the experience replay buffer, and the training loop.
 
@@ -179,11 +179,11 @@ The Operational Framework (`play.py`) integrates the Fixed Strategy Agent and th
 
 The main components of the Operational Framework are:
 
-1. Game State Interpretation: The framework uses the GPT-V model to interpret the game state from screenshots of the poker platform. It processes the visual information to extract relevant features such as the community cards, the agent's private cards, the pot size, and the opponents' actions.
+1. **Game State Interpretation**: The framework uses the GPT-V model to interpret the game state from screenshots of the poker platform. It processes the visual information to extract relevant features such as the community cards, the agent's private cards, the pot size, and the opponents' actions.
 
-2. Action Execution: Based on the decisions made by the agents, the framework simulates the appropriate actions (fold, call, raise) by sending commands to the poker platform through web browser automation techniques (e.g., Selenium, Puppeteer).
+2. **Action Execution**: Based on the decisions made by the agents, the framework simulates the appropriate actions (fold, call, raise) by sending commands to the poker platform through web browser automation techniques (e.g., Selenium, Puppeteer).
 
-3. Agent Integration: The framework allows for seamless integration of different agent implementations, such as the Fixed Strategy Agent and the DQN Agent. It provides a unified interface for the agents to receive game state information and return their chosen actions.
+3. **Agent Integration**: The framework allows for seamless integration of different agent implementations, such as the Fixed Strategy Agent and the DQN Agent. It provides a unified interface for the agents to receive game state information and return their chosen actions.
 
 The Operational Framework's implementation is contained in the `play.py` file, which includes functions for game state interpretation, action execution, and agent integration.
 
@@ -208,7 +208,7 @@ To evaluate the system, we conducted the following analyses:
 
 1. Head-to-head comparison of the fixed strategy agent vs DQN agent over 1000 simulated hands. Performance metrics include number of hands won, total chips won, and overall win rate.
 2. Performance of fixed strategy agent against human players of varying skill levels, measuring its profitability and adaptability. 
-3. Comparison of the fixed strategy agent's decisions to game theory optimal strategies from GTO Wizard [5] and GTOBase [6] to assess how closely it approximates optimal play.
+3. Comparison of the fixed strategy agent's decisions to game theory optimal strategies from GTO Wizard [10] and GTOBase [11] to assess how closely it approximates optimal play.
 4. Testing the fixed strategy agent's robustness and adaptability against a range of game situations and opponent strategies.
 
 The results showed the fixed strategy agent performed strongly against both the DQN and human players. Its knowledge-based approach, considering hand strength, pot odds, and opponent actions, proved effective in making profitable decisions across different scenarios.
@@ -229,15 +229,15 @@ The system ran efficiently, with 1000 hands simulated in a reasonable time. A ke
 Ethical considerations are an important part of any project, as they help ensure that the system is used in a responsible and ethical manner. In this section, you should discuss any ethical considerations that arise from your project, such as potential biases in your algorithms, privacy concerns, or the impact of your system on society.
 -->
 
-1. Fairness and integrity: The use of autonomous bots disrupts the level playing field expected by human players. Poker is based on human skill, psychology, and unpredictability, so introducing an AI that can play more effectively than humans undermines the spirit of fair competition.
+1. **Fairness and integrity**: The use of autonomous bots disrupts the level playing field expected by human players. Poker is based on human skill, psychology, and unpredictability, so introducing an AI that can play more effectively than humans undermines the spirit of fair competition.
 
-2. Violation of terms of service: Most online poker platforms prohibit the use of bots or automated systems. Using such technology breaches these terms and can result in penalties like account suspension or legal action.
+2. **Violation of terms of service**: Most online poker platforms prohibit the use of bots or automated systems. Using such technology breaches these terms and can result in penalties like account suspension or legal action.
 
-3. Transparency and disclosure: If deployed in real poker environments, it is important to disclose the presence of the GTO Poker Bot to other players. Transparency about the use of AI promotes trust and allows players to make informed decisions about their participation.
+3. **Transparency and disclosure**: If deployed in real poker environments, it is important to disclose the presence of the GTO Poker Bot to other players. Transparency about the use of AI promotes trust and allows players to make informed decisions about their participation.
 
-4. Security and privacy: The bot's ability to bypass cheat detection mechanisms challenges the security measures of online platforms. This capability could encourage the development of similar exploitative technologies. Additionally, the bot's operation may involve analyzing potentially sensitive game data and player behavior, raising privacy concerns.
+4. **Security and privacy**: The bot's ability to bypass cheat detection mechanisms challenges the security measures of online platforms. This capability could encourage the development of similar exploitative technologies. Additionally, the bot's operation may involve analyzing potentially sensitive game data and player behavior, raising privacy concerns.
 
-5. Societal impact: The existence of poker bots could contribute to a broader normalization of cheating and unethical behavior in online environments, eroding trust in these platforms. Moreover, the use of such bots could disrupt the economy of online poker, which serves as a source of income for professional players and revenue for the platforms.
+5. **Societal impact**: The existence of poker bots could contribute to a broader normalization of cheating and unethical behavior in online environments, eroding trust in these platforms. Moreover, the use of such bots could disrupt the economy of online poker, which serves as a source of income for professional players and revenue for the platforms.
 
 Here are our proposed solutions to mitigate these ethical risks:
 - Transparency and consent in research environments, ensuring all participants are aware of and agree to the use of AI agents
@@ -278,14 +278,16 @@ Note that, for this assignment, all references listed here should be referenced 
 [1] Deng, Jia, et al. "Imagenet: A large-scale hierarchical image database." 2009 IEEE conference on computer vision and pattern recognition. Ieee, 2009.]
 -->
 
+Need to convert this to proper format:
+
 [1] https://github.com/OthersideAI/self-operating-computer
-[2] https://www.wired.com/2017/02/libratus/
-[3] https://www.sciencedaily.com/releases/2019/07/190711141343.htm
-[4] https://arxiv.org/pdf/2111.07631.pdf
-[5] https://link.springer.com/content/pdf/10.1007/s11633-022-1384-6.pdf
-[6] https://www.technologyreview.com/innovator/noam-brown/
-[7] https://www.wired.com/story/poker-playing-robot-goes-to-pentagon/
-[8] https://www.cs.cmu.edu/~sandholm/cv.pdf
-
-
-[13] https://upswingpoker.com/poker-rules/texas-holdem-rules/
+[2] https://upswingpoker.com/poker-rules/texas-holdem-rules/
+[3] https://www.wired.com/2017/02/libratus/
+[4] https://www.sciencedaily.com/releases/2019/07/190711141343.htm
+[5] https://arxiv.org/pdf/2111.07631.pdf
+[6] https://link.springer.com/content/pdf/10.1007/s11633-022-1384-6.pdf
+[7] https://www.technologyreview.com/innovator/noam-brown/
+[8] https://www.wired.com/story/poker-playing-robot-goes-to-pentagon/
+[9] https://www.cs.cmu.edu/~sandholm/cv.pdf
+[10] https://blog.gtowizard.com/why-doesnt-my-solution-match-gto-wizard/
+[11] https://pokerenergy.net/edu/item/GBase-review
