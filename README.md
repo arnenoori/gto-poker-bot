@@ -18,13 +18,12 @@ This project is part of CSC 481 - Knowledge Based Systems at Cal Poly with Profe
 
 The autonomous part of our project is based of the work of self-operating coomputer by HyperwriteAI https://github.com/OthersideAI/self-operating-computer.
 
-### Getting started (replicating results):
+### Getting started (usage instructions):
 ------
 Clone the repository
 ```
 git clone https://github.com/arnenoori/gto-poker-bot
 ```
-
 Create venv
 ```
 python3 -m venv env
@@ -49,36 +48,41 @@ To run the agent with the fixed strategy agent (default), simply run:
 python play.py
 ```
 
-or you can also run with
-```
-python play.py --fixed
-```
-
-To run the agent with the DQN agent first train the agent by running (or you can use the pretrained model trained_model.h5):
-```
-python dqn_agent.py
-```
-Then run:
-```
-python play.py --dqn
-```
-
-Or if you want to run the random agent:
-```
-python play.py --random
-```
-
-### 3 different agents
+#### 3 different agents
 ---
 
 -  ``agent_random.py``: an agent making random decisions (used for testing and comparison)
 -  ``agent_dqn.py``: a deep q agent
 -  ``fixed.py``: a fixed model
 
+### Results
+
 You can test the performance of the 3 different agents playing each other by running:
 ```
 python evaluate.py
 ```
+
+![Results](media/evaluator.png)
+
+**Results after 1000 hands:**
+
+DQN Agent Wins: 51
+
+Fixed Model Wins: 927
+
+Random Model Wins: 6
+
+Ties: 16
+
+
+### How it works:
+
+GPT-V is used to extract the game state from the screenshots. The extracted information is then used to make decisions based on the current state of the game. Here is an example of the screenshot sent to GPT-V:
+
+![Bot](media/ocr_image_output.png)
+
+Read more in our technical report.
+
 
 ### Repository Structure
 ---
@@ -109,25 +113,3 @@ python evaluate.py
 * [play.py](./play.py)
 * [random_agent.py](./random_agent.py)
 * [requirements.txt](./requirements.txt)
-
-### How it works:
-
-GPT-V is used to extract the game state from the screenshots. The extracted information is then used to make decisions based on the current state of the game. Here is an example of the screenshot sent to GPT-V:
-
-![Bot](media/ocr_image_output.png)
-
-Read more in our technical report.
-
-### Results
-
-![Results](media/evaluator.png)
-
-**Results after 1000 hands:**
-
-DQN Agent Wins: 51
-
-Fixed Model Wins: 927
-
-Random Model Wins: 6
-
-Ties: 16
