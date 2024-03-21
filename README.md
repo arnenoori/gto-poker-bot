@@ -79,9 +79,14 @@ Ties: 16
 
 GPT-V is used to extract the game state from the screenshots. The extracted information is then used to make decisions based on the current state of the game. Here is an example of the screenshot sent to GPT-V:
 
+
+![Demo gif](media/demo.gif)
+
+Example of the screenshot sent to GPT-V:
+
 ![Bot](media/ocr_image_output.png)
 
-Read more in our technical report.
+Read more in our [technical report](./report/GTOPokerFinalProjectReport481.pdf).
 
 
 ### Repository Structure
