@@ -1,3 +1,5 @@
+
+
 ![Poker](media/cowboy_bebop_poker.gif)
 
 ## GTO Poker Bot
@@ -51,9 +53,9 @@ python play.py
 #### 3 different agents
 ---
 
--  ``agent_random.py``: an agent making random decisions (used for testing and comparison)
--  ``agent_dqn.py``: a deep q agent
--  ``fixed.py``: a fixed model
+-  ``random_agent.py``: an agent making random decisions (used for testing and comparison)
+-  ``dqn_agent.py``: a deep q agent
+-  ``gamer/fixed.py``: a fixed model
 
 ### Results
 
